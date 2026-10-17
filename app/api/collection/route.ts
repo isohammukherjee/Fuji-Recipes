@@ -6,7 +6,7 @@ export async function GET(req: Request) {
  const db=env.DB!;
  await db.batch(seed.map(r=>db.prepare('INSERT OR IGNORE INTO recipes (id,data) VALUES (?,?)').bind(r.id,JSON.stringify(r))));
  const [rows,photos,favs]=await Promise.all([db.prepare('SELECT data FROM recipes').all<{data:string}>(),db.prepare('SELECT id,recipe_id FROM samples WHERE owner=? ORDER BY created_at').bind(owner).all<{id:string,recipe_id:string}>(),db.prepare('SELECT recipe_id FROM favorites WHERE owner=?').bind(owner).all<{recipe_id:string}>()]);
- return Response.json({recipes:rows.results.map(r=>JSON.parse(r.data)),samples:photos.results,favorites:favs.results.map(f=>f.recipe_id)},{headers:{'Cache-Control':'private, no-store'}});
+ return Response.json({recipes:seed.map(reference=>{const stored=rows.results.find(row=>JSON.parse(row.data).id===reference.id);return stored?JSON.parse(stored.data):reference;}),samples:photos.results,favorites:favs.results.map(f=>f.recipe_id)},{headers:{'Cache-Control':'private, no-store'}});
 }
 export async function POST(req: Request) {
  const owner=user(req);if(!owner)return Response.json({error:'Sign in required'},{status:401});

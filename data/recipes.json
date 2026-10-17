@@ -24,81 +24,102 @@
     },
     "images": [
       {
-        "url": "/samples/winter-season-1.webp",
-        "source": "Screenshot_20261017_091835.jpg",
+        "url": "/samples/winter-season-37a3536bd68c.webp",
+        "source": "IMG_20261017_105526.jpg",
         "crop": [
           0,
-          500,
-          1090,
-          1590
+          85,
+          1171,
+          1256
         ],
-        "kind": "reference"
+        "kind": "reference",
+        "width": 1080,
+        "height": 1080,
+        "sha256": "37a3536bd68c7040bd7ccd764217c0ddc20d96e53a85d1181cab2951b9f738d4"
       },
       {
-        "url": "/samples/winter-season-2.webp",
-        "source": "Screenshot_20261017_091826.jpg",
+        "url": "/samples/winter-season-db586be6069b.webp",
+        "source": "IMG_20261017_105416.jpg",
         "crop": [
           0,
-          500,
-          1090,
-          1590
+          85,
+          1175,
+          1260
         ],
-        "kind": "reference"
+        "kind": "reference",
+        "width": 1080,
+        "height": 1080,
+        "sha256": "db586be6069b38b8b8e4e48bba70fc61bb8c498b04ac38198d1238686263e56d"
       },
       {
-        "url": "/samples/winter-season-3.webp",
-        "source": "Screenshot_20261017_091831.jpg",
+        "url": "/samples/winter-season-04502ab8d1f2.webp",
+        "source": "IMG_20261017_105459.jpg",
         "crop": [
           0,
-          500,
-          1090,
-          1590
+          85,
+          1175,
+          1260
         ],
-        "kind": "reference"
+        "kind": "reference",
+        "width": 1080,
+        "height": 1080,
+        "sha256": "04502ab8d1f23f4d875883cea6580c0a8a245dd4603cb4de5396359092ced539"
       },
       {
-        "url": "/samples/winter-season-4.webp",
-        "source": "Screenshot_20261017_091840.jpg",
+        "url": "/samples/winter-season-106c858d05fe.webp",
+        "source": "IMG_20261017_105622.jpg",
         "crop": [
           0,
-          500,
-          1090,
-          1590
+          85,
+          1175,
+          1260
         ],
-        "kind": "reference"
+        "kind": "reference",
+        "width": 1080,
+        "height": 1080,
+        "sha256": "106c858d05feff1ad16d259c21adcd98b46a95d0468ffb673a623c461f1f3cc9"
       },
       {
-        "url": "/samples/winter-season-5.webp",
-        "source": "Screenshot_20261017_091844.jpg",
+        "url": "/samples/winter-season-9704e1836088.webp",
+        "source": "IMG_20261017_105640.jpg",
         "crop": [
           0,
-          500,
-          1090,
-          1590
+          0,
+          1076,
+          1076
         ],
-        "kind": "reference"
+        "kind": "reference",
+        "width": 1076,
+        "height": 1076,
+        "sha256": "9704e1836088f5afc5b1f14165529c6a0384955d6fbe7dabc47f4e73c03142ee"
       },
       {
-        "url": "/samples/winter-season-6.webp",
-        "source": "Screenshot_20261017_091848.jpg",
+        "url": "/samples/winter-season-5fe9548d34fe.webp",
+        "source": "IMG_20261017_105715.jpg",
         "crop": [
           0,
-          500,
-          1090,
-          1590
+          85,
+          1175,
+          1260
         ],
-        "kind": "reference"
+        "kind": "reference",
+        "width": 1080,
+        "height": 1080,
+        "sha256": "5fe9548d34fe5c430896bc03c4f8f265166db83c37175e3d245d0fcbc226a571"
       },
       {
-        "url": "/samples/winter-season-7.webp",
-        "source": "Screenshot_20261017_091853.jpg",
+        "url": "/samples/winter-season-b2a24302b85c.webp",
+        "source": "IMG_20261017_105801.jpg",
         "crop": [
           0,
-          500,
-          1090,
-          1590
+          85,
+          1175,
+          1260
         ],
-        "kind": "reference"
+        "kind": "reference",
+        "width": 1080,
+        "height": 1080,
+        "sha256": "b2a24302b85c21bc39e860f94f0746169f1dc65b450c42b1fcd4c25be8d450aa"
       }
     ],
     "note": "Creator correction: originally labelled Kodak Portra 800; renamed Winter Season. Creator used a 35mm f/1.4 with a ¼ Black Mist filter.",
@@ -130,31 +151,8 @@
       "ISO": "Up to 6400",
       "Exposure compensation": "Not specified"
     },
-    "images": [
-      {
-        "url": "/samples/reggies-portra-1.webp",
-        "source": "Screenshot_20261017_091508.jpg",
-        "crop": [
-          0,
-          340,
-          1260,
-          2020
-        ],
-        "kind": "reference"
-      },
-      {
-        "url": "/samples/reggies-portra-2.webp",
-        "source": "Screenshot_20261017_091514.jpg",
-        "crop": [
-          0,
-          340,
-          1260,
-          2020
-        ],
-        "kind": "reference"
-      }
-    ],
-    "note": "Sample grouping inferred from screenshot order; the standalone photos do not explicitly name the recipe.",
+    "images": [],
+    "note": "No sample assigned: the supplied Mount Fuji photos do not name this recipe. Chronology alone is insufficient to confirm the pairing. Recipe settings are transcribed from the named settings card.",
     "sourceScreenshots": [
       "091502"
     ]
@@ -184,15 +182,18 @@
     },
     "images": [
       {
-        "url": "/samples/sunny-day-1.webp",
-        "source": "Screenshot_20261017_091528.jpg",
+        "url": "/samples/sunny-day-42f7e9252f50.webp",
+        "source": "IMG_20261017_104328.jpg",
         "crop": [
-          65,
-          1010,
-          1095,
-          1740
+          0,
+          0,
+          752,
+          752
         ],
-        "kind": "reference"
+        "kind": "reference",
+        "width": 752,
+        "height": 752,
+        "sha256": "42f7e9252f503ba99657a2b1261348083529a70405b6284ba374c0598ed9c8e0"
       }
     ],
     "note": "",
@@ -225,15 +226,18 @@
     },
     "images": [
       {
-        "url": "/samples/summer-sauce-1.webp",
-        "source": "Screenshot_20261017_091546.jpg",
+        "url": "/samples/summer-sauce-81ed984b513c.webp",
+        "source": "IMG_20261017_104401.jpg",
         "crop": [
-          65,
-          650,
-          1095,
-          1680
+          0,
+          0,
+          964,
+          964
         ],
-        "kind": "reference"
+        "kind": "reference",
+        "width": 964,
+        "height": 964,
+        "sha256": "81ed984b513c19262642a4006311dbcc7d09dec866ffe933c3c733715cf41aec"
       }
     ],
     "note": "Summer Sauce: creator also suggests Shadow 0 for more contrast.",
@@ -266,15 +270,18 @@
     },
     "images": [
       {
-        "url": "/samples/dreamy-color-1.webp",
-        "source": "Screenshot_20261017_091559.jpg",
+        "url": "/samples/dreamy-color-97ff99e8a62d.webp",
+        "source": "IMG_20261017_104418.jpg",
         "crop": [
-          65,
-          650,
-          1095,
-          1680
+          0,
+          0,
+          960,
+          960
         ],
-        "kind": "reference"
+        "kind": "reference",
+        "width": 960,
+        "height": 960,
+        "sha256": "97ff99e8a62d16cd3dd0946cb51f82c50a0ed582f5e6b519dbd691404460c331"
       }
     ],
     "note": "",
@@ -307,15 +314,18 @@
     },
     "images": [
       {
-        "url": "/samples/soft-rust-1.webp",
-        "source": "Screenshot_20261017_091609.jpg",
+        "url": "/samples/soft-rust-1024bd71ccae.webp",
+        "source": "IMG_20261017_104447.jpg",
         "crop": [
-          65,
-          650,
-          1095,
-          1680
+          0,
+          0,
+          964,
+          964
         ],
-        "kind": "reference"
+        "kind": "reference",
+        "width": 964,
+        "height": 964,
+        "sha256": "1024bd71ccae7c3cf652eaa0874a233d0dafa56ba7463bf373a1032f66c617a2"
       }
     ],
     "note": "",
@@ -348,15 +358,18 @@
     },
     "images": [
       {
-        "url": "/samples/calm-sea-1.webp",
-        "source": "Screenshot_20261017_091618.jpg",
+        "url": "/samples/calm-sea-fbeedd28a847.webp",
+        "source": "IMG_20261017_104510.jpg",
         "crop": [
-          65,
-          650,
-          1095,
-          1680
+          0,
+          0,
+          988,
+          988
         ],
-        "kind": "reference"
+        "kind": "reference",
+        "width": 988,
+        "height": 988,
+        "sha256": "fbeedd28a847d5c433f8f4b7209dfb0403d99d01a501af560ab1075951bf4527"
       }
     ],
     "note": "",
@@ -389,15 +402,18 @@
     },
     "images": [
       {
-        "url": "/samples/neutral-one-1.webp",
-        "source": "Screenshot_20261017_091627.jpg",
+        "url": "/samples/neutral-one-8c51bebe29c1.webp",
+        "source": "IMG_20261017_104525.jpg",
         "crop": [
-          65,
-          650,
-          1095,
-          1680
+          0,
+          0,
+          1016,
+          1016
         ],
-        "kind": "reference"
+        "kind": "reference",
+        "width": 1016,
+        "height": 1016,
+        "sha256": "8c51bebe29c1e5513db94cf03df0326fa7a3f5cccd0f09728804e2d8b5f84d91"
       }
     ],
     "note": "",
@@ -430,48 +446,46 @@
     },
     "images": [
       {
-        "url": "/samples/fall-city-1.webp",
-        "source": "Screenshot_20261017_091646.jpg",
+        "url": "/samples/fall-city-74433ae88747.webp",
+        "source": "IMG_20261017_104553.jpg",
         "crop": [
           0,
-          500,
-          1090,
-          1590
+          0,
+          1096,
+          1096
         ],
-        "kind": "reference"
+        "kind": "reference",
+        "width": 1080,
+        "height": 1080,
+        "sha256": "74433ae88747eb965c183524b78d797eb74ed74067a67caeb07317a5eb2d29eb"
       },
       {
-        "url": "/samples/fall-city-2.webp",
-        "source": "Screenshot_20261017_091650.jpg",
+        "url": "/samples/fall-city-7590bf195ba9.webp",
+        "source": "IMG_20261017_104627.jpg",
         "crop": [
           0,
-          500,
-          1090,
-          1590
+          0,
+          1088,
+          1088
         ],
-        "kind": "reference"
+        "kind": "reference",
+        "width": 1080,
+        "height": 1080,
+        "sha256": "7590bf195ba964556fcf2a0404a3a8487ed774db73ccce106151b569f104e87a"
       },
       {
-        "url": "/samples/fall-city-3.webp",
-        "source": "Screenshot_20261017_091654.jpg",
+        "url": "/samples/fall-city-921c72cd9471.webp",
+        "source": "IMG_20261017_104644.jpg",
         "crop": [
           0,
-          500,
-          1090,
-          1590
-        ],
-        "kind": "reference"
-      },
-      {
-        "url": "/samples/fall-city-4.webp",
-        "source": "Screenshot_20261017_091638.jpg",
-        "crop": [
           0,
-          1100,
-          1000,
-          1900
+          1024,
+          1024
         ],
-        "kind": "reference"
+        "kind": "reference",
+        "width": 1024,
+        "height": 1024,
+        "sha256": "921c72cd9471e5af75275cf905cc8eb1d98d7c6dd16cd0b7ced152026c446ce9"
       }
     ],
     "note": "Descriptive catalog name; the creator calls this a fall Fujifilm recipe. Unlisted settings are left unspecified.",
@@ -504,48 +518,46 @@
     },
     "images": [
       {
-        "url": "/samples/autumn-ember-1.webp",
-        "source": "Screenshot_20261017_091706.jpg",
+        "url": "/samples/autumn-ember-37d89dfc7a00.webp",
+        "source": "IMG_20261017_104707.jpg",
         "crop": [
           0,
-          500,
-          1090,
-          1590
+          0,
+          1064,
+          1064
         ],
-        "kind": "reference"
+        "kind": "reference",
+        "width": 1064,
+        "height": 1064,
+        "sha256": "37d89dfc7a00f9b677602c2d7a4f47289ec5d8e6fbdff6b184ab1fc7524cbd05"
       },
       {
-        "url": "/samples/autumn-ember-2.webp",
-        "source": "Screenshot_20261017_091715.jpg",
+        "url": "/samples/autumn-ember-a8dac9774374.webp",
+        "source": "IMG_20261017_104723.jpg",
         "crop": [
           0,
-          500,
-          1090,
-          1590
+          0,
+          1088,
+          1088
         ],
-        "kind": "reference"
+        "kind": "reference",
+        "width": 1080,
+        "height": 1080,
+        "sha256": "a8dac977437482d9615f2e5a163a2a74a7f3aa20d309572336aa26f32f2c1180"
       },
       {
-        "url": "/samples/autumn-ember-3.webp",
-        "source": "Screenshot_20261017_091719.jpg",
+        "url": "/samples/autumn-ember-21f7fb07a656.webp",
+        "source": "IMG_20261017_104741.jpg",
         "crop": [
           0,
-          445,
-          1090,
-          1045
-        ],
-        "kind": "reference"
-      },
-      {
-        "url": "/samples/autumn-ember-4.webp",
-        "source": "Screenshot_20261017_091719.jpg",
-        "crop": [
           0,
-          1105,
-          1090,
-          1740
+          1080,
+          1080
         ],
-        "kind": "reference"
+        "kind": "reference",
+        "width": 1080,
+        "height": 1080,
+        "sha256": "21f7fb07a6564faae0f5d4d074d96d020fa0d6d2e386108ba6f94f5a1bd0ac0d"
       }
     ],
     "note": "Creator tested on X-T5 with ND and Black Mist filters; results depend on light, lens and sensor.",
@@ -578,37 +590,32 @@
     },
     "images": [
       {
-        "url": "/samples/mono-soul-1.webp",
-        "source": "Screenshot_20261017_091736.jpg",
+        "url": "/samples/mono-soul-c75a4f6b5d18.webp",
+        "source": "IMG_20261017_104758.jpg",
         "crop": [
-          30,
-          735,
-          1090,
-          1495
+          0,
+          0,
+          772,
+          772
         ],
-        "kind": "reference"
+        "kind": "reference",
+        "width": 772,
+        "height": 772,
+        "sha256": "c75a4f6b5d189d8aa7b77d03fccff9fc6fd1c00d00de6a76f3c511ba4ff87e23"
       },
       {
-        "url": "/samples/mono-soul-2.webp",
-        "source": "Screenshot_20261017_091740.jpg",
+        "url": "/samples/mono-soul-914775f51405.webp",
+        "source": "IMG_20261017_104820.jpg",
         "crop": [
-          30,
-          735,
-          1090,
-          1495
+          0,
+          0,
+          744,
+          744
         ],
-        "kind": "reference"
-      },
-      {
-        "url": "/samples/mono-soul-3.webp",
-        "source": "Screenshot_20261017_091732.jpg",
-        "crop": [
-          40,
-          450,
-          1090,
-          1030
-        ],
-        "kind": "reference"
+        "kind": "reference",
+        "width": 744,
+        "height": 744,
+        "sha256": "914775f5140551fd6b245ca0f2fa9eff20875a00896b39c989fd5308ca022d76"
       }
     ],
     "note": "Monochromatic Color: WC 0, MG 0. Grain and Color Chrome are not listed.",
@@ -641,92 +648,102 @@
     },
     "images": [
       {
-        "url": "/samples/warm-table-1.webp",
-        "source": "Screenshot_20261017_091754.jpg",
-        "crop": [
-          190,
-          480,
-          1070,
-          970
-        ],
-        "kind": "reference"
-      },
-      {
-        "url": "/samples/warm-table-2.webp",
-        "source": "Screenshot_20261017_091744.jpg",
-        "crop": [
-          240,
-          900,
-          1090,
-          1750
-        ],
-        "kind": "reference"
-      },
-      {
-        "url": "/samples/warm-table-3.webp",
-        "source": "Screenshot_20261017_091749.jpg",
-        "crop": [
-          55,
-          925,
-          1090,
-          1540
-        ],
-        "kind": "reference"
-      },
-      {
-        "url": "/samples/warm-table-4.webp",
-        "source": "Screenshot_20261017_091754.jpg",
-        "crop": [
-          190,
-          1090,
-          1080,
-          1480
-        ],
-        "kind": "reference"
-      },
-      {
-        "url": "/samples/warm-table-5.webp",
-        "source": "Screenshot_20261017_091758.jpg",
+        "url": "/samples/warm-table-47181cf6c247.webp",
+        "source": "IMG_20261017_105007.jpg",
         "crop": [
           0,
-          650,
-          1090,
-          1720
+          0,
+          1920,
+          1920
         ],
-        "kind": "reference"
+        "kind": "reference",
+        "width": 1080,
+        "height": 1080,
+        "sha256": "47181cf6c24736c4b2e33b6ac95af06aef81b5e21d6db47fadbc48679ca3120e"
       },
       {
-        "url": "/samples/warm-table-6.webp",
-        "source": "Screenshot_20261017_091802.jpg",
+        "url": "/samples/warm-table-fd14e07315ba.webp",
+        "source": "IMG_20261017_104914.jpg",
+        "crop": [
+          198,
+          281,
+          906,
+          989
+        ],
+        "kind": "reference",
+        "width": 708,
+        "height": 708,
+        "sha256": "fd14e07315ba8442be0c6293bc544743ff8945993abbb61fbac1c010c4a53d32"
+      },
+      {
+        "url": "/samples/warm-table-7eb4efc38032.webp",
+        "source": "IMG_20261017_105031.jpg",
+        "crop": [
+          56,
+          0,
+          934,
+          465
+        ],
+        "kind": "reference",
+        "width": 465,
+        "height": 465,
+        "sha256": "7eb4efc380326b277aec938677e639fdb0dc4c0174c19f399d965e6ae1c57dc7"
+      },
+      {
+        "url": "/samples/warm-table-e797e25dad0d.webp",
+        "source": "IMG_20261017_105031.jpg",
+        "crop": [
+          56,
+          508,
+          934,
+          988
+        ],
+        "kind": "reference",
+        "width": 480,
+        "height": 480,
+        "sha256": "e797e25dad0d9e32039ab8bff32ac6a488fbae3766439f60d0c86eff2e058bca"
+      },
+      {
+        "url": "/samples/warm-table-a50dc1112353.webp",
+        "source": "IMG_20261017_105103.jpg",
         "crop": [
           0,
-          600,
-          410,
-          1300
+          0,
+          3428,
+          3428
         ],
-        "kind": "reference"
+        "kind": "reference",
+        "width": 1080,
+        "height": 1080,
+        "sha256": "a50dc1112353f98a080c2e12f47963efff7627f02ad342635fcdb31007c4df23"
       },
       {
-        "url": "/samples/warm-table-7.webp",
-        "source": "Screenshot_20261017_091802.jpg",
+        "url": "/samples/warm-table-62ceeff399bb.webp",
+        "source": "IMG_20261017_105151.jpg",
         "crop": [
-          430,
-          600,
-          840,
-          1300
+          0,
+          120,
+          1148,
+          2330
         ],
-        "kind": "reference"
+        "kind": "reference",
+        "width": 1080,
+        "height": 1080,
+        "sha256": "62ceeff399bb2fe6ffbbef490b371831a37e8ca1756c9c9145916b02ec8e8204"
       },
       {
-        "url": "/samples/warm-table-8.webp",
-        "source": "Screenshot_20261017_091802.jpg",
+        "url": "/samples/warm-table-673696d8d6e5.webp",
+        "source": "IMG_20261017_105151.jpg",
         "crop": [
-          860,
-          600,
-          1260,
-          1300
+          1230,
+          120,
+          2424,
+          2330
         ],
-        "kind": "reference"
+        "kind": "reference",
+        "width": 1080,
+        "height": 1080,
+        "sha256": "673696d8d6e543042e8f3244d4c6ceb95bf9bbd62bcdb2040f23a49d0b2bfaef"
       }
     ],
     "note": "Descriptive catalog name; the post does not provide a recipe name.",
@@ -761,59 +778,74 @@
     },
     "images": [
       {
-        "url": "/samples/summer-rain-1.webp",
-        "source": "Screenshot_20261017_091857.jpg",
+        "url": "/samples/summer-rain-3d3dfb78cad3.webp",
+        "source": "IMG_20261017_105828.jpg",
         "crop": [
-          35,
-          500,
-          1100,
-          1565
+          0,
+          0,
+          936,
+          936
         ],
-        "kind": "reference"
+        "kind": "reference",
+        "width": 936,
+        "height": 936,
+        "sha256": "3d3dfb78cad3bd8d231f84d86d9457a6b309fcca5a59c839ccf410a03e3dcb84"
       },
       {
-        "url": "/samples/summer-rain-2.webp",
-        "source": "Screenshot_20261017_091902.jpg",
+        "url": "/samples/summer-rain-f7255fdfbea2.webp",
+        "source": "IMG_20261017_105904.jpg",
         "crop": [
-          35,
-          500,
-          1100,
-          1565
+          0,
+          0,
+          1152,
+          1152
         ],
-        "kind": "reference"
+        "kind": "reference",
+        "width": 1080,
+        "height": 1080,
+        "sha256": "f7255fdfbea27fcf28b09207823faa9cc48e9a6971be71366fd04fc49e4b6241"
       },
       {
-        "url": "/samples/summer-rain-3.webp",
-        "source": "Screenshot_20261017_091907.jpg",
+        "url": "/samples/summer-rain-799c36991f55.webp",
+        "source": "IMG_20261017_110004.jpg",
         "crop": [
-          35,
-          500,
-          1100,
-          1565
+          0,
+          85,
+          1071,
+          1156
         ],
-        "kind": "reference"
+        "kind": "reference",
+        "width": 1071,
+        "height": 1071,
+        "sha256": "799c36991f55ee9871b51d5a317803caf0eaa319a860efd72ca0f2c7d2a95bf1"
       },
       {
-        "url": "/samples/summer-rain-4.webp",
-        "source": "Screenshot_20261017_091911.jpg",
+        "url": "/samples/summer-rain-1fbf13ab9e17.webp",
+        "source": "IMG_20261017_110018.jpg",
         "crop": [
-          35,
-          500,
-          1100,
-          1565
+          0,
+          0,
+          1072,
+          1068
         ],
-        "kind": "reference"
+        "kind": "reference",
+        "width": 1068,
+        "height": 1068,
+        "sha256": "1fbf13ab9e17c08893c2bf66d8cacbb6542c0cecfd234c1fa54b9666520ddc8d"
       },
       {
-        "url": "/samples/summer-rain-5.webp",
-        "source": "Screenshot_20261017_091922.jpg",
+        "url": "/samples/summer-rain-629cb5a83c63.webp",
+        "source": "IMG_20261017_110034.jpg",
         "crop": [
-          35,
-          500,
-          1100,
-          1565
+          0,
+          0,
+          1008,
+          1008
         ],
-        "kind": "reference"
+        "kind": "reference",
+        "width": 1008,
+        "height": 1008,
+        "sha256": "629cb5a83c6399133e6333c146256521a04aa053245b64c73b6b32b5c39401d8"
       }
     ],
     "note": "Creator recommends portraits in overcast light; can also work in other lighting.",
@@ -847,20 +879,233 @@
     },
     "images": [
       {
-        "url": "/samples/dote-classic-chrome-1.webp",
-        "source": "Screenshot_20261017_091940.jpg",
+        "url": "/samples/dote-classic-chrome-6f9de5b8057f.webp",
+        "source": "IMG_20261017_110106.jpg",
         "crop": [
-          245,
-          820,
-          545,
-          1120
+          0,
+          420,
+          460,
+          880
         ],
-        "kind": "reference"
+        "kind": "reference",
+        "width": 460,
+        "height": 460,
+        "sha256": "6f9de5b8057fcf6a75449d94e32a9c417f19f6f8208c3acd82e47e5ec37f71ee"
       }
     ],
-    "note": "Name distinguishes this creator’s recipe from the base film simulation. The source is a video screenshot; its title is excluded from this preview.",
+    "note": "Creator: vincent.dote. Source images are title cards, not clean full-frame samples; only small text-free photo regions are shown. Additional uncaptioned originals would improve this gallery.",
     "sourceScreenshots": [
       "091940"
     ]
+  },
+  {
+    "id": "calm-sea-scotland",
+    "name": "Calm Sea · Scotland",
+    "creator": "danieljschwarz",
+    "tag": "Landscape",
+    "description": "Cold sky, amber moor.",
+    "settings": {
+      "Film simulation": "Astia / Soft",
+      "Dynamic range": "DR400",
+      "Grain effect": "Strong · Small",
+      "Color Chrome": "Strong",
+      "Color Chrome FX Blue": "Weak",
+      "White balance": "Shade",
+      "WB shift": "R 0 · B +1",
+      "Highlight": "+2",
+      "Shadow": "0",
+      "Color": "+2",
+      "Sharpness": "−2",
+      "High ISO NR": "−4",
+      "Clarity": "−4",
+      "ISO": "Auto",
+      "Exposure compensation": "−⅓ to 0"
+    },
+    "images": [
+      {
+        "url": "/samples/calm-sea-scotland-3ef326daba20.webp",
+        "source": "01-1000463191.jpg",
+        "crop": [
+          0,
+          339,
+          630,
+          969
+        ],
+        "kind": "reference",
+        "width": 630,
+        "height": 630,
+        "sha256": "3ef326daba20dc258e839a6be1125cf95dcb0e05e7519177d4a18aaff175066a"
+      }
+    ],
+    "note": "Scotland / October 9 post. Separate version: settings and sample are paired from the adjacent numbered recipe slides. This differs from the earlier recipe with the same base name.",
+    "source_settings": "02-1000463192.jpg"
+  },
+  {
+    "id": "classic-autumn-scotland",
+    "name": "Classic Autumn · Scotland",
+    "creator": "danieljschwarz",
+    "tag": "Landscape",
+    "description": "Pink haze, rust.",
+    "settings": {
+      "Film simulation": "Classic Negative",
+      "Dynamic range": "DR400",
+      "Grain effect": "Strong · Large",
+      "Color Chrome": "Strong",
+      "Color Chrome FX Blue": "Weak",
+      "White balance": "Auto",
+      "WB shift": "R +6 · B −6",
+      "Highlight": "−1.5",
+      "Shadow": "+0.5",
+      "Color": "0",
+      "Sharpness": "−2",
+      "High ISO NR": "−4",
+      "Clarity": "−3",
+      "ISO": "Auto",
+      "Exposure compensation": "+⅓"
+    },
+    "images": [
+      {
+        "url": "/samples/classic-autumn-scotland-788c756b2a72.webp",
+        "source": "03-1000463193.jpg",
+        "crop": [
+          0,
+          339,
+          630,
+          969
+        ],
+        "kind": "reference",
+        "width": 630,
+        "height": 630,
+        "sha256": "788c756b2a72514a14a662de23a31af56f3db008a4652f8d6713ffc2ba69c8e0"
+      }
+    ],
+    "note": "Scotland / October 9 post. Separate version: settings and sample are paired from the adjacent numbered recipe slides. ",
+    "source_settings": "04-1000463194.jpg"
+  },
+  {
+    "id": "soft-rust-scotland",
+    "name": "Soft Rust · Scotland",
+    "creator": "danieljschwarz",
+    "tag": "Landscape",
+    "description": "Warm moor, dark hills.",
+    "settings": {
+      "Film simulation": "Classic Negative",
+      "Dynamic range": "DR400",
+      "Grain effect": "Strong · Small",
+      "Color Chrome": "Strong",
+      "Color Chrome FX Blue": "Weak",
+      "White balance": "Auto",
+      "WB shift": "R +6 · B −6",
+      "Highlight": "0",
+      "Shadow": "+2",
+      "Color": "+4",
+      "Sharpness": "−2",
+      "High ISO NR": "0",
+      "Clarity": "−4",
+      "ISO": "Auto",
+      "Exposure compensation": "−⅔ to 0"
+    },
+    "images": [
+      {
+        "url": "/samples/soft-rust-scotland-517c6e41ce13.webp",
+        "source": "05-1000463195.jpg",
+        "crop": [
+          0,
+          339,
+          630,
+          969
+        ],
+        "kind": "reference",
+        "width": 630,
+        "height": 630,
+        "sha256": "517c6e41ce134dd62eb6945e63272825e44e6a825daf7651f40e86e580b283d4"
+      }
+    ],
+    "note": "Scotland / October 9 post. Separate version: settings and sample are paired from the adjacent numbered recipe slides. This differs from the earlier recipe with the same base name.",
+    "source_settings": "06-1000463196.jpg"
+  },
+  {
+    "id": "cool-air-scotland",
+    "name": "Cool Air · Scotland",
+    "creator": "danieljschwarz",
+    "tag": "Landscape",
+    "description": "Icy mist, deep shadows.",
+    "settings": {
+      "Film simulation": "Nostalgic Negative",
+      "Dynamic range": "DR400",
+      "Grain effect": "Strong · Small",
+      "Color Chrome": "Strong",
+      "Color Chrome FX Blue": "Off",
+      "White balance": "Auto",
+      "WB shift": "R −1 · B −3",
+      "Highlight": "+1.5",
+      "Shadow": "+3",
+      "Color": "+4",
+      "Sharpness": "−2",
+      "High ISO NR": "−4",
+      "Clarity": "−3",
+      "ISO": "Auto",
+      "Exposure compensation": "−⅓ to +⅓"
+    },
+    "images": [
+      {
+        "url": "/samples/cool-air-scotland-0f8fb85630a2.webp",
+        "source": "07-1000463197.jpg",
+        "crop": [
+          0,
+          339,
+          630,
+          969
+        ],
+        "kind": "reference",
+        "width": 630,
+        "height": 630,
+        "sha256": "0f8fb85630a28a55739b76cc5807b7647f6843b5bc6e59a1abde337e7f7ab454"
+      }
+    ],
+    "note": "Scotland / October 9 post. Separate version: settings and sample are paired from the adjacent numbered recipe slides. ",
+    "source_settings": "08-1000463198.jpg"
+  },
+  {
+    "id": "plain-light-scotland",
+    "name": "Plain Light · Scotland",
+    "creator": "danieljschwarz",
+    "tag": "Landscape",
+    "description": "Grey mist, true colours.",
+    "settings": {
+      "Film simulation": "Pro Neg. Hi",
+      "Dynamic range": "DR200",
+      "Grain effect": "Off",
+      "Color Chrome": "Weak",
+      "Color Chrome FX Blue": "Off",
+      "White balance": "Auto",
+      "WB shift": "R +1 · B −1",
+      "Highlight": "−0.5",
+      "Shadow": "+1",
+      "Color": "+1",
+      "Sharpness": "0",
+      "High ISO NR": "−2",
+      "Clarity": "0",
+      "ISO": "Auto",
+      "Exposure compensation": "0 to +⅓"
+    },
+    "images": [
+      {
+        "url": "/samples/plain-light-scotland-088f4c78bf55.webp",
+        "source": "09-1000463199.jpg",
+        "crop": [
+          0,
+          339,
+          630,
+          969
+        ],
+        "kind": "reference",
+        "width": 630,
+        "height": 630,
+        "sha256": "088f4c78bf5546f2ce640d89ae8901677695b250ecf44dd9a7e3f425b5108e6c"
+      }
+    ],
+    "note": "Scotland / October 9 post. Separate version: settings and sample are paired from the adjacent numbered recipe slides. ",
+    "source_settings": "10-1000463200.jpg"
   }
 ]

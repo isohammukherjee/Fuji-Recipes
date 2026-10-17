@@ -1,0 +1,764 @@
+{
+  "batch": "Fuji Recipes Cropped.zip + Scotland 2026-10-17 screenshots",
+  "excluded": [
+    {
+      "source": "IMG_20261017_105224.jpg",
+      "reason": "Duplicate Winter Season scene with a title overlay; clean version IMG_20261017_105526.jpg is used instead."
+    },
+    {
+      "source": "IMG_20261017_110123.jpg",
+      "reason": "Title text overlaps the subject; a text-free crop would show mostly palm, so this frame is withheld."
+    },
+    {
+      "source": "IMG_20261017_104247.jpg",
+      "reason": "Unlabelled photo: cannot confirm Reggie’s Portra association."
+    },
+    {
+      "source": "IMG_20261017_104307.jpg",
+      "reason": "Unlabelled photo: cannot confirm Reggie’s Portra association."
+    }
+  ],
+  "images": [
+    {
+      "recipe_id": "winter-season",
+      "recipe_name": "Winter Season",
+      "source": "IMG_20261017_105526.jpg",
+      "original_post_screenshot": "Screenshot_20261017_091835.jpg",
+      "crop": [
+        0,
+        85,
+        1171,
+        1256
+      ],
+      "output": "/samples/winter-season-37a3536bd68c.webp",
+      "dimensions": [
+        1080,
+        1080
+      ],
+      "sha256": "37a3536bd68c7040bd7ccd764217c0ddc20d96e53a85d1181cab2951b9f738d4",
+      "association": "Matched visually to the original post and its recipe settings."
+    },
+    {
+      "recipe_id": "winter-season",
+      "recipe_name": "Winter Season",
+      "source": "IMG_20261017_105416.jpg",
+      "original_post_screenshot": "Screenshot_20261017_091826.jpg",
+      "crop": [
+        0,
+        85,
+        1175,
+        1260
+      ],
+      "output": "/samples/winter-season-db586be6069b.webp",
+      "dimensions": [
+        1080,
+        1080
+      ],
+      "sha256": "db586be6069b38b8b8e4e48bba70fc61bb8c498b04ac38198d1238686263e56d",
+      "association": "Matched visually to the original post and its recipe settings."
+    },
+    {
+      "recipe_id": "winter-season",
+      "recipe_name": "Winter Season",
+      "source": "IMG_20261017_105459.jpg",
+      "original_post_screenshot": "Screenshot_20261017_091831.jpg",
+      "crop": [
+        0,
+        85,
+        1175,
+        1260
+      ],
+      "output": "/samples/winter-season-04502ab8d1f2.webp",
+      "dimensions": [
+        1080,
+        1080
+      ],
+      "sha256": "04502ab8d1f23f4d875883cea6580c0a8a245dd4603cb4de5396359092ced539",
+      "association": "Matched visually to the original post and its recipe settings."
+    },
+    {
+      "recipe_id": "winter-season",
+      "recipe_name": "Winter Season",
+      "source": "IMG_20261017_105622.jpg",
+      "original_post_screenshot": "Screenshot_20261017_091840.jpg",
+      "crop": [
+        0,
+        85,
+        1175,
+        1260
+      ],
+      "output": "/samples/winter-season-106c858d05fe.webp",
+      "dimensions": [
+        1080,
+        1080
+      ],
+      "sha256": "106c858d05feff1ad16d259c21adcd98b46a95d0468ffb673a623c461f1f3cc9",
+      "association": "Matched visually to the original post and its recipe settings."
+    },
+    {
+      "recipe_id": "winter-season",
+      "recipe_name": "Winter Season",
+      "source": "IMG_20261017_105640.jpg",
+      "original_post_screenshot": "Screenshot_20261017_091844.jpg",
+      "crop": [
+        0,
+        0,
+        1076,
+        1076
+      ],
+      "output": "/samples/winter-season-9704e1836088.webp",
+      "dimensions": [
+        1076,
+        1076
+      ],
+      "sha256": "9704e1836088f5afc5b1f14165529c6a0384955d6fbe7dabc47f4e73c03142ee",
+      "association": "Matched visually to the original post and its recipe settings."
+    },
+    {
+      "recipe_id": "winter-season",
+      "recipe_name": "Winter Season",
+      "source": "IMG_20261017_105715.jpg",
+      "original_post_screenshot": "Screenshot_20261017_091848.jpg",
+      "crop": [
+        0,
+        85,
+        1175,
+        1260
+      ],
+      "output": "/samples/winter-season-5fe9548d34fe.webp",
+      "dimensions": [
+        1080,
+        1080
+      ],
+      "sha256": "5fe9548d34fe5c430896bc03c4f8f265166db83c37175e3d245d0fcbc226a571",
+      "association": "Matched visually to the original post and its recipe settings."
+    },
+    {
+      "recipe_id": "winter-season",
+      "recipe_name": "Winter Season",
+      "source": "IMG_20261017_105801.jpg",
+      "original_post_screenshot": "Screenshot_20261017_091853.jpg",
+      "crop": [
+        0,
+        85,
+        1175,
+        1260
+      ],
+      "output": "/samples/winter-season-b2a24302b85c.webp",
+      "dimensions": [
+        1080,
+        1080
+      ],
+      "sha256": "b2a24302b85c21bc39e860f94f0746169f1dc65b450c42b1fcd4c25be8d450aa",
+      "association": "Matched visually to the original post and its recipe settings."
+    },
+    {
+      "recipe_id": "sunny-day",
+      "recipe_name": "Sunny Day",
+      "source": "IMG_20261017_104328.jpg",
+      "original_post_screenshot": "Screenshot_20261017_091528.jpg",
+      "crop": [
+        0,
+        0,
+        752,
+        752
+      ],
+      "output": "/samples/sunny-day-42f7e9252f50.webp",
+      "dimensions": [
+        752,
+        752
+      ],
+      "sha256": "42f7e9252f503ba99657a2b1261348083529a70405b6284ba374c0598ed9c8e0",
+      "association": "Matched visually to the original post and its recipe settings."
+    },
+    {
+      "recipe_id": "summer-sauce",
+      "recipe_name": "Summer Sauce",
+      "source": "IMG_20261017_104401.jpg",
+      "original_post_screenshot": "Screenshot_20261017_091546.jpg",
+      "crop": [
+        0,
+        0,
+        964,
+        964
+      ],
+      "output": "/samples/summer-sauce-81ed984b513c.webp",
+      "dimensions": [
+        964,
+        964
+      ],
+      "sha256": "81ed984b513c19262642a4006311dbcc7d09dec866ffe933c3c733715cf41aec",
+      "association": "Matched visually to the original post and its recipe settings."
+    },
+    {
+      "recipe_id": "dreamy-color",
+      "recipe_name": "Dreamy Color",
+      "source": "IMG_20261017_104418.jpg",
+      "original_post_screenshot": "Screenshot_20261017_091559.jpg",
+      "crop": [
+        0,
+        0,
+        960,
+        960
+      ],
+      "output": "/samples/dreamy-color-97ff99e8a62d.webp",
+      "dimensions": [
+        960,
+        960
+      ],
+      "sha256": "97ff99e8a62d16cd3dd0946cb51f82c50a0ed582f5e6b519dbd691404460c331",
+      "association": "Matched visually to the original post and its recipe settings."
+    },
+    {
+      "recipe_id": "soft-rust",
+      "recipe_name": "Soft Rust",
+      "source": "IMG_20261017_104447.jpg",
+      "original_post_screenshot": "Screenshot_20261017_091609.jpg",
+      "crop": [
+        0,
+        0,
+        964,
+        964
+      ],
+      "output": "/samples/soft-rust-1024bd71ccae.webp",
+      "dimensions": [
+        964,
+        964
+      ],
+      "sha256": "1024bd71ccae7c3cf652eaa0874a233d0dafa56ba7463bf373a1032f66c617a2",
+      "association": "Matched visually to the original post and its recipe settings."
+    },
+    {
+      "recipe_id": "calm-sea",
+      "recipe_name": "Calm Sea",
+      "source": "IMG_20261017_104510.jpg",
+      "original_post_screenshot": "Screenshot_20261017_091618.jpg",
+      "crop": [
+        0,
+        0,
+        988,
+        988
+      ],
+      "output": "/samples/calm-sea-fbeedd28a847.webp",
+      "dimensions": [
+        988,
+        988
+      ],
+      "sha256": "fbeedd28a847d5c433f8f4b7209dfb0403d99d01a501af560ab1075951bf4527",
+      "association": "Matched visually to the original post and its recipe settings."
+    },
+    {
+      "recipe_id": "neutral-one",
+      "recipe_name": "Neutral One",
+      "source": "IMG_20261017_104525.jpg",
+      "original_post_screenshot": "Screenshot_20261017_091627.jpg",
+      "crop": [
+        0,
+        0,
+        1016,
+        1016
+      ],
+      "output": "/samples/neutral-one-8c51bebe29c1.webp",
+      "dimensions": [
+        1016,
+        1016
+      ],
+      "sha256": "8c51bebe29c1e5513db94cf03df0326fa7a3f5cccd0f09728804e2d8b5f84d91",
+      "association": "Matched visually to the original post and its recipe settings."
+    },
+    {
+      "recipe_id": "fall-city",
+      "recipe_name": "Fall City",
+      "source": "IMG_20261017_104553.jpg",
+      "original_post_screenshot": "Screenshot_20261017_091646.jpg",
+      "crop": [
+        0,
+        0,
+        1096,
+        1096
+      ],
+      "output": "/samples/fall-city-74433ae88747.webp",
+      "dimensions": [
+        1080,
+        1080
+      ],
+      "sha256": "74433ae88747eb965c183524b78d797eb74ed74067a67caeb07317a5eb2d29eb",
+      "association": "Matched visually to the original post and its recipe settings."
+    },
+    {
+      "recipe_id": "fall-city",
+      "recipe_name": "Fall City",
+      "source": "IMG_20261017_104627.jpg",
+      "original_post_screenshot": "Screenshot_20261017_091650.jpg",
+      "crop": [
+        0,
+        0,
+        1088,
+        1088
+      ],
+      "output": "/samples/fall-city-7590bf195ba9.webp",
+      "dimensions": [
+        1080,
+        1080
+      ],
+      "sha256": "7590bf195ba964556fcf2a0404a3a8487ed774db73ccce106151b569f104e87a",
+      "association": "Matched visually to the original post and its recipe settings."
+    },
+    {
+      "recipe_id": "fall-city",
+      "recipe_name": "Fall City",
+      "source": "IMG_20261017_104644.jpg",
+      "original_post_screenshot": "Screenshot_20261017_091654.jpg",
+      "crop": [
+        0,
+        0,
+        1024,
+        1024
+      ],
+      "output": "/samples/fall-city-921c72cd9471.webp",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "sha256": "921c72cd9471e5af75275cf905cc8eb1d98d7c6dd16cd0b7ced152026c446ce9",
+      "association": "Matched visually to the original post and its recipe settings."
+    },
+    {
+      "recipe_id": "autumn-ember",
+      "recipe_name": "Autumn Ember",
+      "source": "IMG_20261017_104707.jpg",
+      "original_post_screenshot": "Screenshot_20261017_091706.jpg",
+      "crop": [
+        0,
+        0,
+        1064,
+        1064
+      ],
+      "output": "/samples/autumn-ember-37d89dfc7a00.webp",
+      "dimensions": [
+        1064,
+        1064
+      ],
+      "sha256": "37d89dfc7a00f9b677602c2d7a4f47289ec5d8e6fbdff6b184ab1fc7524cbd05",
+      "association": "Matched visually to the original post and its recipe settings."
+    },
+    {
+      "recipe_id": "autumn-ember",
+      "recipe_name": "Autumn Ember",
+      "source": "IMG_20261017_104723.jpg",
+      "original_post_screenshot": "Screenshot_20261017_091715.jpg",
+      "crop": [
+        0,
+        0,
+        1088,
+        1088
+      ],
+      "output": "/samples/autumn-ember-a8dac9774374.webp",
+      "dimensions": [
+        1080,
+        1080
+      ],
+      "sha256": "a8dac977437482d9615f2e5a163a2a74a7f3aa20d309572336aa26f32f2c1180",
+      "association": "Matched visually to the original post and its recipe settings."
+    },
+    {
+      "recipe_id": "autumn-ember",
+      "recipe_name": "Autumn Ember",
+      "source": "IMG_20261017_104741.jpg",
+      "original_post_screenshot": "Screenshot_20261017_091719.jpg",
+      "crop": [
+        0,
+        0,
+        1080,
+        1080
+      ],
+      "output": "/samples/autumn-ember-21f7fb07a656.webp",
+      "dimensions": [
+        1080,
+        1080
+      ],
+      "sha256": "21f7fb07a6564faae0f5d4d074d96d020fa0d6d2e386108ba6f94f5a1bd0ac0d",
+      "association": "Matched visually to the original post and its recipe settings."
+    },
+    {
+      "recipe_id": "mono-soul",
+      "recipe_name": "Mono Soul",
+      "source": "IMG_20261017_104758.jpg",
+      "original_post_screenshot": "Screenshot_20261017_091736.jpg",
+      "crop": [
+        0,
+        0,
+        772,
+        772
+      ],
+      "output": "/samples/mono-soul-c75a4f6b5d18.webp",
+      "dimensions": [
+        772,
+        772
+      ],
+      "sha256": "c75a4f6b5d189d8aa7b77d03fccff9fc6fd1c00d00de6a76f3c511ba4ff87e23",
+      "association": "Matched visually to the original post and its recipe settings."
+    },
+    {
+      "recipe_id": "mono-soul",
+      "recipe_name": "Mono Soul",
+      "source": "IMG_20261017_104820.jpg",
+      "original_post_screenshot": "Screenshot_20261017_091740.jpg",
+      "crop": [
+        0,
+        0,
+        744,
+        744
+      ],
+      "output": "/samples/mono-soul-914775f51405.webp",
+      "dimensions": [
+        744,
+        744
+      ],
+      "sha256": "914775f5140551fd6b245ca0f2fa9eff20875a00896b39c989fd5308ca022d76",
+      "association": "Matched visually to the original post and its recipe settings."
+    },
+    {
+      "recipe_id": "warm-table",
+      "recipe_name": "Warm Table",
+      "source": "IMG_20261017_105007.jpg",
+      "original_post_screenshot": "Screenshot_20261017_091749.jpg",
+      "crop": [
+        0,
+        0,
+        1920,
+        1920
+      ],
+      "output": "/samples/warm-table-47181cf6c247.webp",
+      "dimensions": [
+        1080,
+        1080
+      ],
+      "sha256": "47181cf6c24736c4b2e33b6ac95af06aef81b5e21d6db47fadbc48679ca3120e",
+      "association": "Matched visually to the original post and its recipe settings."
+    },
+    {
+      "recipe_id": "warm-table",
+      "recipe_name": "Warm Table",
+      "source": "IMG_20261017_104914.jpg",
+      "original_post_screenshot": "Screenshot_20261017_091744.jpg",
+      "crop": [
+        198,
+        281,
+        906,
+        989
+      ],
+      "output": "/samples/warm-table-fd14e07315ba.webp",
+      "dimensions": [
+        708,
+        708
+      ],
+      "sha256": "fd14e07315ba8442be0c6293bc544743ff8945993abbb61fbac1c010c4a53d32",
+      "association": "Matched visually to the original post and its recipe settings."
+    },
+    {
+      "recipe_id": "warm-table",
+      "recipe_name": "Warm Table",
+      "source": "IMG_20261017_105031.jpg",
+      "original_post_screenshot": "Screenshot_20261017_091754.jpg",
+      "crop": [
+        56,
+        0,
+        934,
+        465
+      ],
+      "output": "/samples/warm-table-7eb4efc38032.webp",
+      "dimensions": [
+        465,
+        465
+      ],
+      "sha256": "7eb4efc380326b277aec938677e639fdb0dc4c0174c19f399d965e6ae1c57dc7",
+      "association": "Matched visually to the original post and its recipe settings."
+    },
+    {
+      "recipe_id": "warm-table",
+      "recipe_name": "Warm Table",
+      "source": "IMG_20261017_105031.jpg",
+      "original_post_screenshot": "Screenshot_20261017_091754.jpg",
+      "crop": [
+        56,
+        508,
+        934,
+        988
+      ],
+      "output": "/samples/warm-table-e797e25dad0d.webp",
+      "dimensions": [
+        480,
+        480
+      ],
+      "sha256": "e797e25dad0d9e32039ab8bff32ac6a488fbae3766439f60d0c86eff2e058bca",
+      "association": "Matched visually to the original post and its recipe settings."
+    },
+    {
+      "recipe_id": "warm-table",
+      "recipe_name": "Warm Table",
+      "source": "IMG_20261017_105103.jpg",
+      "original_post_screenshot": "Screenshot_20261017_091758.jpg",
+      "crop": [
+        0,
+        0,
+        3428,
+        3428
+      ],
+      "output": "/samples/warm-table-a50dc1112353.webp",
+      "dimensions": [
+        1080,
+        1080
+      ],
+      "sha256": "a50dc1112353f98a080c2e12f47963efff7627f02ad342635fcdb31007c4df23",
+      "association": "Matched visually to the original post and its recipe settings."
+    },
+    {
+      "recipe_id": "warm-table",
+      "recipe_name": "Warm Table",
+      "source": "IMG_20261017_105151.jpg",
+      "original_post_screenshot": "Screenshot_20261017_091802.jpg",
+      "crop": [
+        0,
+        120,
+        1148,
+        2330
+      ],
+      "output": "/samples/warm-table-62ceeff399bb.webp",
+      "dimensions": [
+        1080,
+        1080
+      ],
+      "sha256": "62ceeff399bb2fe6ffbbef490b371831a37e8ca1756c9c9145916b02ec8e8204",
+      "association": "Matched visually to the original post and its recipe settings."
+    },
+    {
+      "recipe_id": "warm-table",
+      "recipe_name": "Warm Table",
+      "source": "IMG_20261017_105151.jpg",
+      "original_post_screenshot": "Screenshot_20261017_091802.jpg",
+      "crop": [
+        1230,
+        120,
+        2424,
+        2330
+      ],
+      "output": "/samples/warm-table-673696d8d6e5.webp",
+      "dimensions": [
+        1080,
+        1080
+      ],
+      "sha256": "673696d8d6e543042e8f3244d4c6ceb95bf9bbd62bcdb2040f23a49d0b2bfaef",
+      "association": "Matched visually to the original post and its recipe settings."
+    },
+    {
+      "recipe_id": "summer-rain",
+      "recipe_name": "Summer Rain",
+      "source": "IMG_20261017_105828.jpg",
+      "original_post_screenshot": "Screenshot_20261017_091857.jpg",
+      "crop": [
+        0,
+        0,
+        936,
+        936
+      ],
+      "output": "/samples/summer-rain-3d3dfb78cad3.webp",
+      "dimensions": [
+        936,
+        936
+      ],
+      "sha256": "3d3dfb78cad3bd8d231f84d86d9457a6b309fcca5a59c839ccf410a03e3dcb84",
+      "association": "Matched visually to the original post and its recipe settings."
+    },
+    {
+      "recipe_id": "summer-rain",
+      "recipe_name": "Summer Rain",
+      "source": "IMG_20261017_105904.jpg",
+      "original_post_screenshot": "Screenshot_20261017_091902.jpg",
+      "crop": [
+        0,
+        0,
+        1152,
+        1152
+      ],
+      "output": "/samples/summer-rain-f7255fdfbea2.webp",
+      "dimensions": [
+        1080,
+        1080
+      ],
+      "sha256": "f7255fdfbea27fcf28b09207823faa9cc48e9a6971be71366fd04fc49e4b6241",
+      "association": "Matched visually to the original post and its recipe settings."
+    },
+    {
+      "recipe_id": "summer-rain",
+      "recipe_name": "Summer Rain",
+      "source": "IMG_20261017_110004.jpg",
+      "original_post_screenshot": "Screenshot_20261017_091907.jpg",
+      "crop": [
+        0,
+        85,
+        1071,
+        1156
+      ],
+      "output": "/samples/summer-rain-799c36991f55.webp",
+      "dimensions": [
+        1071,
+        1071
+      ],
+      "sha256": "799c36991f55ee9871b51d5a317803caf0eaa319a860efd72ca0f2c7d2a95bf1",
+      "association": "Matched visually to the original post and its recipe settings."
+    },
+    {
+      "recipe_id": "summer-rain",
+      "recipe_name": "Summer Rain",
+      "source": "IMG_20261017_110018.jpg",
+      "original_post_screenshot": "Screenshot_20261017_091911.jpg",
+      "crop": [
+        0,
+        0,
+        1072,
+        1068
+      ],
+      "output": "/samples/summer-rain-1fbf13ab9e17.webp",
+      "dimensions": [
+        1068,
+        1068
+      ],
+      "sha256": "1fbf13ab9e17c08893c2bf66d8cacbb6542c0cecfd234c1fa54b9666520ddc8d",
+      "association": "Matched visually to the original post and its recipe settings."
+    },
+    {
+      "recipe_id": "summer-rain",
+      "recipe_name": "Summer Rain",
+      "source": "IMG_20261017_110034.jpg",
+      "original_post_screenshot": "Screenshot_20261017_091922.jpg",
+      "crop": [
+        0,
+        0,
+        1008,
+        1008
+      ],
+      "output": "/samples/summer-rain-629cb5a83c63.webp",
+      "dimensions": [
+        1008,
+        1008
+      ],
+      "sha256": "629cb5a83c6399133e6333c146256521a04aa053245b64c73b6b32b5c39401d8",
+      "association": "Matched visually to the original post and its recipe settings."
+    },
+    {
+      "recipe_id": "dote-classic-chrome",
+      "recipe_name": "Dote’s Classic Chrome",
+      "source": "IMG_20261017_110106.jpg",
+      "original_post_screenshot": "Screenshot_20261017_091936.jpg",
+      "crop": [
+        0,
+        420,
+        460,
+        880
+      ],
+      "output": "/samples/dote-classic-chrome-6f9de5b8057f.webp",
+      "dimensions": [
+        460,
+        460
+      ],
+      "sha256": "6f9de5b8057fcf6a75449d94e32a9c417f19f6f8208c3acd82e47e5ec37f71ee",
+      "association": "Matched visually to the original post and its recipe settings."
+    },
+    {
+      "recipe_id": "calm-sea-scotland",
+      "recipe_name": "Calm Sea · Scotland",
+      "source": "01-1000463191.jpg",
+      "original_post_screenshot": "02-1000463192.jpg",
+      "crop": [
+        0,
+        339,
+        630,
+        969
+      ],
+      "output": "/samples/calm-sea-scotland-3ef326daba20.webp",
+      "dimensions": [
+        630,
+        630
+      ],
+      "sha256": "3ef326daba20dc258e839a6be1125cf95dcb0e05e7519177d4a18aaff175066a",
+      "association": "Explicit numbered pair: photo 1 and recipe 1 from the Scotland post. Crop excludes Instagram chrome, slide badge and title panel."
+    },
+    {
+      "recipe_id": "classic-autumn-scotland",
+      "recipe_name": "Classic Autumn · Scotland",
+      "source": "03-1000463193.jpg",
+      "original_post_screenshot": "04-1000463194.jpg",
+      "crop": [
+        0,
+        339,
+        630,
+        969
+      ],
+      "output": "/samples/classic-autumn-scotland-788c756b2a72.webp",
+      "dimensions": [
+        630,
+        630
+      ],
+      "sha256": "788c756b2a72514a14a662de23a31af56f3db008a4652f8d6713ffc2ba69c8e0",
+      "association": "Explicit numbered pair: photo 2 and recipe 2 from the Scotland post. Crop excludes Instagram chrome, slide badge and title panel."
+    },
+    {
+      "recipe_id": "soft-rust-scotland",
+      "recipe_name": "Soft Rust · Scotland",
+      "source": "05-1000463195.jpg",
+      "original_post_screenshot": "06-1000463196.jpg",
+      "crop": [
+        0,
+        339,
+        630,
+        969
+      ],
+      "output": "/samples/soft-rust-scotland-517c6e41ce13.webp",
+      "dimensions": [
+        630,
+        630
+      ],
+      "sha256": "517c6e41ce134dd62eb6945e63272825e44e6a825daf7651f40e86e580b283d4",
+      "association": "Explicit numbered pair: photo 3 and recipe 3 from the Scotland post. Crop excludes Instagram chrome, slide badge and title panel."
+    },
+    {
+      "recipe_id": "cool-air-scotland",
+      "recipe_name": "Cool Air · Scotland",
+      "source": "07-1000463197.jpg",
+      "original_post_screenshot": "08-1000463198.jpg",
+      "crop": [
+        0,
+        339,
+        630,
+        969
+      ],
+      "output": "/samples/cool-air-scotland-0f8fb85630a2.webp",
+      "dimensions": [
+        630,
+        630
+      ],
+      "sha256": "0f8fb85630a28a55739b76cc5807b7647f6843b5bc6e59a1abde337e7f7ab454",
+      "association": "Explicit numbered pair: photo 4 and recipe 4 from the Scotland post. Crop excludes Instagram chrome, slide badge and title panel."
+    },
+    {
+      "recipe_id": "plain-light-scotland",
+      "recipe_name": "Plain Light · Scotland",
+      "source": "09-1000463199.jpg",
+      "original_post_screenshot": "10-1000463200.jpg",
+      "crop": [
+        0,
+        339,
+        630,
+        969
+      ],
+      "output": "/samples/plain-light-scotland-088f4c78bf55.webp",
+      "dimensions": [
+        630,
+        630
+      ],
+      "sha256": "088f4c78bf5546f2ce640d89ae8901677695b250ecf44dd9a7e3f425b5108e6c",
+      "association": "Explicit numbered pair: photo 5 and recipe 5 from the Scotland post. Crop excludes Instagram chrome, slide badge and title panel."
+    }
+  ]
+}

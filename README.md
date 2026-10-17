@@ -8,6 +8,9 @@ A mobile-first, private React field companion for Soham’s Fujifilm recipe coll
 
 ## Features
 
+- Two switchable interfaces: **Simple** uses a one-column photo list, large controls, collapsible filters and bottom navigation; **Full** retains the editorial collection and desktop sidebar. The opening chooser preselects Simple below 768px, Full on larger screens, or your saved device preference. Both layouts are available at any size. Change layouts from the header or Simple's bottom navigation without losing the active recipe, search, filters or photo.
+- Short CSS page, card, dialog and filter entrance animations, press feedback and reduced-motion support. Gallery resizing preserves the selected photo. Explicit device viewport metadata prevents mobile browsers from squeezing the desktop layout into a phone screen.
+
 - Responsive recipe grid, mood and film simulation filters, search and synced favorites.
 - Recipe detail with swipe carousel and every setting on the same page. Thumbnail navigation, keyboard arrows and full-size viewer.
 - Outdoor Field view with larger settings and a compact sticky photo carousel on phones. Daylight and dark appearance, reduced-motion support.

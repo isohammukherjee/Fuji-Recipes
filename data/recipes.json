@@ -1,0 +1,866 @@
+[
+  {
+    "id": "winter-season",
+    "name": "Winter Season",
+    "creator": "kwg.st",
+    "tag": "Everyday",
+    "description": "Deep greens, warm wood, and softly muted everyday moments.",
+    "settings": {
+      "Film simulation": "Classic Negative",
+      "Dynamic range": "Auto",
+      "Grain effect": "Strong · Large",
+      "Color Chrome": "Off",
+      "Color Chrome FX Blue": "Weak",
+      "White balance": "5600K",
+      "WB shift": "R −4 · B −5",
+      "Highlight": "+1",
+      "Shadow": "0",
+      "Color": "+3",
+      "Sharpness": "−2",
+      "High ISO NR": "−4",
+      "Clarity": "0",
+      "ISO": "Not specified",
+      "Exposure compensation": "Not specified"
+    },
+    "images": [
+      {
+        "url": "/samples/winter-season-1.webp",
+        "source": "Screenshot_20261017_091835.jpg",
+        "crop": [
+          0,
+          500,
+          1090,
+          1590
+        ],
+        "kind": "reference"
+      },
+      {
+        "url": "/samples/winter-season-2.webp",
+        "source": "Screenshot_20261017_091826.jpg",
+        "crop": [
+          0,
+          500,
+          1090,
+          1590
+        ],
+        "kind": "reference"
+      },
+      {
+        "url": "/samples/winter-season-3.webp",
+        "source": "Screenshot_20261017_091831.jpg",
+        "crop": [
+          0,
+          500,
+          1090,
+          1590
+        ],
+        "kind": "reference"
+      },
+      {
+        "url": "/samples/winter-season-4.webp",
+        "source": "Screenshot_20261017_091840.jpg",
+        "crop": [
+          0,
+          500,
+          1090,
+          1590
+        ],
+        "kind": "reference"
+      },
+      {
+        "url": "/samples/winter-season-5.webp",
+        "source": "Screenshot_20261017_091844.jpg",
+        "crop": [
+          0,
+          500,
+          1090,
+          1590
+        ],
+        "kind": "reference"
+      },
+      {
+        "url": "/samples/winter-season-6.webp",
+        "source": "Screenshot_20261017_091848.jpg",
+        "crop": [
+          0,
+          500,
+          1090,
+          1590
+        ],
+        "kind": "reference"
+      },
+      {
+        "url": "/samples/winter-season-7.webp",
+        "source": "Screenshot_20261017_091853.jpg",
+        "crop": [
+          0,
+          500,
+          1090,
+          1590
+        ],
+        "kind": "reference"
+      }
+    ],
+    "note": "Creator correction: originally labelled Kodak Portra 800; renamed Winter Season. Creator used a 35mm f/1.4 with a ¼ Black Mist filter.",
+    "sourceScreenshots": [
+      "090910",
+      "091822"
+    ]
+  },
+  {
+    "id": "reggies-portra",
+    "name": "Reggie’s Portra",
+    "creator": "thefujinomad · Fuji X Weekly",
+    "tag": "Travel",
+    "description": "Soft color and a gentle, familiar film feel.",
+    "settings": {
+      "Film simulation": "Classic Chrome",
+      "Dynamic range": "Auto",
+      "Grain effect": "Weak · Small",
+      "Color Chrome": "Strong",
+      "Color Chrome FX Blue": "Weak",
+      "White balance": "Auto",
+      "WB shift": "R +2 · B −4",
+      "Highlight": "−1",
+      "Shadow": "−1",
+      "Color": "+2",
+      "Sharpness": "−2",
+      "High ISO NR": "−4",
+      "Clarity": "0",
+      "ISO": "Up to 6400",
+      "Exposure compensation": "Not specified"
+    },
+    "images": [
+      {
+        "url": "/samples/reggies-portra-1.webp",
+        "source": "Screenshot_20261017_091508.jpg",
+        "crop": [
+          0,
+          340,
+          1260,
+          2020
+        ],
+        "kind": "reference"
+      },
+      {
+        "url": "/samples/reggies-portra-2.webp",
+        "source": "Screenshot_20261017_091514.jpg",
+        "crop": [
+          0,
+          340,
+          1260,
+          2020
+        ],
+        "kind": "reference"
+      }
+    ],
+    "note": "Sample grouping inferred from screenshot order; the standalone photos do not explicitly name the recipe.",
+    "sourceScreenshots": [
+      "091502"
+    ]
+  },
+  {
+    "id": "sunny-day",
+    "name": "Sunny Day",
+    "creator": "onedayonelife.album · FUJISTYLE",
+    "tag": "Daylight",
+    "description": "Bright afternoons, warm skin and a little retro charm.",
+    "settings": {
+      "Film simulation": "Astia / Soft",
+      "Dynamic range": "DR400",
+      "Grain effect": "Off",
+      "Color Chrome": "Off",
+      "Color Chrome FX Blue": "Off",
+      "White balance": "4600K",
+      "WB shift": "R 0 · B −1",
+      "Highlight": "−1.5",
+      "Shadow": "+2",
+      "Color": "+3",
+      "Sharpness": "0",
+      "High ISO NR": "−2",
+      "Clarity": "0",
+      "ISO": "Not specified",
+      "Exposure compensation": "Not specified"
+    },
+    "images": [
+      {
+        "url": "/samples/sunny-day-1.webp",
+        "source": "Screenshot_20261017_091528.jpg",
+        "crop": [
+          65,
+          1010,
+          1095,
+          1740
+        ],
+        "kind": "reference"
+      }
+    ],
+    "note": "",
+    "sourceScreenshots": [
+      "091528"
+    ]
+  },
+  {
+    "id": "summer-sauce",
+    "name": "Summer Sauce",
+    "creator": "danieljschwarz",
+    "tag": "Landscape",
+    "description": "One mountain scene, a different color story.",
+    "settings": {
+      "Film simulation": "Classic Chrome",
+      "Dynamic range": "DR400",
+      "Grain effect": "Weak · Large",
+      "Color Chrome": "Strong",
+      "Color Chrome FX Blue": "Off",
+      "White balance": "Auto",
+      "WB shift": "R +3 · B −6",
+      "Highlight": "−2",
+      "Shadow": "−2",
+      "Color": "+4",
+      "Sharpness": "−1",
+      "High ISO NR": "−4",
+      "Clarity": "−4",
+      "ISO": "Auto",
+      "Exposure compensation": "Not specified"
+    },
+    "images": [
+      {
+        "url": "/samples/summer-sauce-1.webp",
+        "source": "Screenshot_20261017_091546.jpg",
+        "crop": [
+          65,
+          650,
+          1095,
+          1680
+        ],
+        "kind": "reference"
+      }
+    ],
+    "note": "Summer Sauce: creator also suggests Shadow 0 for more contrast.",
+    "sourceScreenshots": [
+      "091547"
+    ]
+  },
+  {
+    "id": "dreamy-color",
+    "name": "Dreamy Color",
+    "creator": "danieljschwarz",
+    "tag": "Landscape",
+    "description": "One mountain scene, a different color story.",
+    "settings": {
+      "Film simulation": "Velvia / Vivid",
+      "Dynamic range": "DR200",
+      "Grain effect": "Strong · Small",
+      "Color Chrome": "Strong",
+      "Color Chrome FX Blue": "Strong",
+      "White balance": "Auto",
+      "WB shift": "R +6 · B −5",
+      "Highlight": "−1",
+      "Shadow": "−1.5",
+      "Color": "+4",
+      "Sharpness": "−3",
+      "High ISO NR": "0",
+      "Clarity": "−4",
+      "ISO": "Auto",
+      "Exposure compensation": "Not specified"
+    },
+    "images": [
+      {
+        "url": "/samples/dreamy-color-1.webp",
+        "source": "Screenshot_20261017_091559.jpg",
+        "crop": [
+          65,
+          650,
+          1095,
+          1680
+        ],
+        "kind": "reference"
+      }
+    ],
+    "note": "",
+    "sourceScreenshots": [
+      "091604"
+    ]
+  },
+  {
+    "id": "soft-rust",
+    "name": "Soft Rust",
+    "creator": "danieljschwarz",
+    "tag": "Landscape",
+    "description": "One mountain scene, a different color story.",
+    "settings": {
+      "Film simulation": "Classic Negative",
+      "Dynamic range": "DR100",
+      "Grain effect": "Strong · Small",
+      "Color Chrome": "Strong",
+      "Color Chrome FX Blue": "Weak",
+      "White balance": "Auto",
+      "WB shift": "R +6 · B −6",
+      "Highlight": "0",
+      "Shadow": "+2",
+      "Color": "+4",
+      "Sharpness": "−2",
+      "High ISO NR": "−4",
+      "Clarity": "−4",
+      "ISO": "Auto",
+      "Exposure compensation": "Not specified"
+    },
+    "images": [
+      {
+        "url": "/samples/soft-rust-1.webp",
+        "source": "Screenshot_20261017_091609.jpg",
+        "crop": [
+          65,
+          650,
+          1095,
+          1680
+        ],
+        "kind": "reference"
+      }
+    ],
+    "note": "",
+    "sourceScreenshots": [
+      "091613"
+    ]
+  },
+  {
+    "id": "calm-sea",
+    "name": "Calm Sea",
+    "creator": "danieljschwarz",
+    "tag": "Landscape",
+    "description": "One mountain scene, a different color story.",
+    "settings": {
+      "Film simulation": "Astia / Soft",
+      "Dynamic range": "DR400",
+      "Grain effect": "Strong · Small",
+      "Color Chrome": "Strong",
+      "Color Chrome FX Blue": "Weak",
+      "White balance": "Shade",
+      "WB shift": "R 0 · B +1",
+      "Highlight": "+2",
+      "Shadow": "0",
+      "Color": "+2",
+      "Sharpness": "−2",
+      "High ISO NR": "−4",
+      "Clarity": "−4",
+      "ISO": "Auto · up to 6400",
+      "Exposure compensation": "Not specified"
+    },
+    "images": [
+      {
+        "url": "/samples/calm-sea-1.webp",
+        "source": "Screenshot_20261017_091618.jpg",
+        "crop": [
+          65,
+          650,
+          1095,
+          1680
+        ],
+        "kind": "reference"
+      }
+    ],
+    "note": "",
+    "sourceScreenshots": [
+      "091623"
+    ]
+  },
+  {
+    "id": "neutral-one",
+    "name": "Neutral One",
+    "creator": "danieljschwarz",
+    "tag": "Landscape",
+    "description": "One mountain scene, a different color story.",
+    "settings": {
+      "Film simulation": "Eterna / Cinema",
+      "Dynamic range": "DR100",
+      "Grain effect": "Strong · Small",
+      "Color Chrome": "Off",
+      "Color Chrome FX Blue": "Off",
+      "White balance": "Auto",
+      "WB shift": "R +4 · B −4",
+      "Highlight": "0",
+      "Shadow": "+2",
+      "Color": "+4",
+      "Sharpness": "−2",
+      "High ISO NR": "0",
+      "Clarity": "−4",
+      "ISO": "Not specified",
+      "Exposure compensation": "Not specified"
+    },
+    "images": [
+      {
+        "url": "/samples/neutral-one-1.webp",
+        "source": "Screenshot_20261017_091627.jpg",
+        "crop": [
+          65,
+          650,
+          1095,
+          1680
+        ],
+        "kind": "reference"
+      }
+    ],
+    "note": "",
+    "sourceScreenshots": [
+      "091632"
+    ]
+  },
+  {
+    "id": "fall-city",
+    "name": "Fall City",
+    "creator": "shadi.3001",
+    "tag": "Street",
+    "description": "Warm coffee, dark shadows, and autumn in the city.",
+    "settings": {
+      "Film simulation": "Classic Negative",
+      "Dynamic range": "DR200",
+      "Grain effect": "Off",
+      "Color Chrome": "Off",
+      "Color Chrome FX Blue": "Off",
+      "White balance": "Auto",
+      "WB shift": "R +4 · B −5",
+      "Highlight": "−2",
+      "Shadow": "+1",
+      "Color": "+3",
+      "Sharpness": "−2",
+      "High ISO NR": "Not specified",
+      "Clarity": "Not specified",
+      "ISO": "Not specified",
+      "Exposure compensation": "Not specified"
+    },
+    "images": [
+      {
+        "url": "/samples/fall-city-1.webp",
+        "source": "Screenshot_20261017_091646.jpg",
+        "crop": [
+          0,
+          500,
+          1090,
+          1590
+        ],
+        "kind": "reference"
+      },
+      {
+        "url": "/samples/fall-city-2.webp",
+        "source": "Screenshot_20261017_091650.jpg",
+        "crop": [
+          0,
+          500,
+          1090,
+          1590
+        ],
+        "kind": "reference"
+      },
+      {
+        "url": "/samples/fall-city-3.webp",
+        "source": "Screenshot_20261017_091654.jpg",
+        "crop": [
+          0,
+          500,
+          1090,
+          1590
+        ],
+        "kind": "reference"
+      },
+      {
+        "url": "/samples/fall-city-4.webp",
+        "source": "Screenshot_20261017_091638.jpg",
+        "crop": [
+          0,
+          1100,
+          1000,
+          1900
+        ],
+        "kind": "reference"
+      }
+    ],
+    "note": "Descriptive catalog name; the creator calls this a fall Fujifilm recipe. Unlisted settings are left unspecified.",
+    "sourceScreenshots": [
+      "091642"
+    ]
+  },
+  {
+    "id": "autumn-ember",
+    "name": "Autumn Ember",
+    "creator": "henryhuyns",
+    "tag": "Nature",
+    "description": "Glowing reds, rich foliage and warm autumn light.",
+    "settings": {
+      "Film simulation": "Classic Negative",
+      "Dynamic range": "DR400",
+      "Grain effect": "Strong · Small",
+      "Color Chrome": "Strong",
+      "Color Chrome FX Blue": "Strong",
+      "White balance": "6300K",
+      "WB shift": "R +2 · B −6",
+      "Highlight": "−1",
+      "Shadow": "0",
+      "Color": "+4",
+      "Sharpness": "+1",
+      "High ISO NR": "−4",
+      "Clarity": "−4",
+      "ISO": "Auto · up to 3200",
+      "Exposure compensation": "0 to +1"
+    },
+    "images": [
+      {
+        "url": "/samples/autumn-ember-1.webp",
+        "source": "Screenshot_20261017_091706.jpg",
+        "crop": [
+          0,
+          500,
+          1090,
+          1590
+        ],
+        "kind": "reference"
+      },
+      {
+        "url": "/samples/autumn-ember-2.webp",
+        "source": "Screenshot_20261017_091715.jpg",
+        "crop": [
+          0,
+          500,
+          1090,
+          1590
+        ],
+        "kind": "reference"
+      },
+      {
+        "url": "/samples/autumn-ember-3.webp",
+        "source": "Screenshot_20261017_091719.jpg",
+        "crop": [
+          0,
+          445,
+          1090,
+          1045
+        ],
+        "kind": "reference"
+      },
+      {
+        "url": "/samples/autumn-ember-4.webp",
+        "source": "Screenshot_20261017_091719.jpg",
+        "crop": [
+          0,
+          1105,
+          1090,
+          1740
+        ],
+        "kind": "reference"
+      }
+    ],
+    "note": "Creator tested on X-T5 with ND and Black Mist filters; results depend on light, lens and sensor.",
+    "sourceScreenshots": [
+      "091727"
+    ]
+  },
+  {
+    "id": "mono-soul",
+    "name": "Mono Soul",
+    "creator": "Thomas Phoon · fujifilmcameravn",
+    "tag": "Monochrome",
+    "description": "Bold black and white for small stories and quiet streets.",
+    "settings": {
+      "Film simulation": "Acros",
+      "Dynamic range": "DR400",
+      "Grain effect": "Not specified",
+      "Color Chrome": "Not specified",
+      "Color Chrome FX Blue": "Not specified",
+      "White balance": "Auto",
+      "WB shift": "R +6 · B −7",
+      "Highlight": "+2",
+      "Shadow": "+3",
+      "Color": "0",
+      "Sharpness": "0",
+      "High ISO NR": "0",
+      "Clarity": "0",
+      "ISO": "Not specified",
+      "Exposure compensation": "0"
+    },
+    "images": [
+      {
+        "url": "/samples/mono-soul-1.webp",
+        "source": "Screenshot_20261017_091736.jpg",
+        "crop": [
+          30,
+          735,
+          1090,
+          1495
+        ],
+        "kind": "reference"
+      },
+      {
+        "url": "/samples/mono-soul-2.webp",
+        "source": "Screenshot_20261017_091740.jpg",
+        "crop": [
+          30,
+          735,
+          1090,
+          1495
+        ],
+        "kind": "reference"
+      },
+      {
+        "url": "/samples/mono-soul-3.webp",
+        "source": "Screenshot_20261017_091732.jpg",
+        "crop": [
+          40,
+          450,
+          1090,
+          1030
+        ],
+        "kind": "reference"
+      }
+    ],
+    "note": "Monochromatic Color: WC 0, MG 0. Grain and Color Chrome are not listed.",
+    "sourceScreenshots": [
+      "091732"
+    ]
+  },
+  {
+    "id": "warm-table",
+    "name": "Warm Table",
+    "creator": "tummyammy_",
+    "tag": "Food",
+    "description": "Golden bowls, comforting light and inviting food color.",
+    "settings": {
+      "Film simulation": "Astia / Soft",
+      "Dynamic range": "DR100",
+      "Grain effect": "Not specified",
+      "Color Chrome": "Not specified",
+      "Color Chrome FX Blue": "Not specified",
+      "White balance": "5800–7000K",
+      "WB shift": "R +2 · B −1",
+      "Highlight": "−2",
+      "Shadow": "+1",
+      "Color": "0",
+      "Sharpness": "+1",
+      "High ISO NR": "0",
+      "Clarity": "+1",
+      "ISO": "Not specified",
+      "Exposure compensation": "Not specified"
+    },
+    "images": [
+      {
+        "url": "/samples/warm-table-1.webp",
+        "source": "Screenshot_20261017_091754.jpg",
+        "crop": [
+          190,
+          480,
+          1070,
+          970
+        ],
+        "kind": "reference"
+      },
+      {
+        "url": "/samples/warm-table-2.webp",
+        "source": "Screenshot_20261017_091744.jpg",
+        "crop": [
+          240,
+          900,
+          1090,
+          1750
+        ],
+        "kind": "reference"
+      },
+      {
+        "url": "/samples/warm-table-3.webp",
+        "source": "Screenshot_20261017_091749.jpg",
+        "crop": [
+          55,
+          925,
+          1090,
+          1540
+        ],
+        "kind": "reference"
+      },
+      {
+        "url": "/samples/warm-table-4.webp",
+        "source": "Screenshot_20261017_091754.jpg",
+        "crop": [
+          190,
+          1090,
+          1080,
+          1480
+        ],
+        "kind": "reference"
+      },
+      {
+        "url": "/samples/warm-table-5.webp",
+        "source": "Screenshot_20261017_091758.jpg",
+        "crop": [
+          0,
+          650,
+          1090,
+          1720
+        ],
+        "kind": "reference"
+      },
+      {
+        "url": "/samples/warm-table-6.webp",
+        "source": "Screenshot_20261017_091802.jpg",
+        "crop": [
+          0,
+          600,
+          410,
+          1300
+        ],
+        "kind": "reference"
+      },
+      {
+        "url": "/samples/warm-table-7.webp",
+        "source": "Screenshot_20261017_091802.jpg",
+        "crop": [
+          430,
+          600,
+          840,
+          1300
+        ],
+        "kind": "reference"
+      },
+      {
+        "url": "/samples/warm-table-8.webp",
+        "source": "Screenshot_20261017_091802.jpg",
+        "crop": [
+          860,
+          600,
+          1260,
+          1300
+        ],
+        "kind": "reference"
+      }
+    ],
+    "note": "Descriptive catalog name; the post does not provide a recipe name.",
+    "sourceScreenshots": [
+      "091754",
+      "091758",
+      "091802"
+    ]
+  },
+  {
+    "id": "summer-rain",
+    "name": "Summer Rain",
+    "creator": "maurenzetti",
+    "tag": "Portrait",
+    "description": "Soft highlights, lifted shadows and organic film color.",
+    "settings": {
+      "Film simulation": "Classic Negative",
+      "Dynamic range": "DR400",
+      "Grain effect": "Strong · Small",
+      "Color Chrome": "Strong",
+      "Color Chrome FX Blue": "Strong",
+      "White balance": "Daylight",
+      "WB shift": "R −2 · B −1",
+      "Highlight": "−2",
+      "Shadow": "+0.5",
+      "Color": "+4",
+      "Sharpness": "0",
+      "High ISO NR": "−4",
+      "Clarity": "0",
+      "ISO": "Auto",
+      "Exposure compensation": "Not specified"
+    },
+    "images": [
+      {
+        "url": "/samples/summer-rain-1.webp",
+        "source": "Screenshot_20261017_091857.jpg",
+        "crop": [
+          35,
+          500,
+          1100,
+          1565
+        ],
+        "kind": "reference"
+      },
+      {
+        "url": "/samples/summer-rain-2.webp",
+        "source": "Screenshot_20261017_091902.jpg",
+        "crop": [
+          35,
+          500,
+          1100,
+          1565
+        ],
+        "kind": "reference"
+      },
+      {
+        "url": "/samples/summer-rain-3.webp",
+        "source": "Screenshot_20261017_091907.jpg",
+        "crop": [
+          35,
+          500,
+          1100,
+          1565
+        ],
+        "kind": "reference"
+      },
+      {
+        "url": "/samples/summer-rain-4.webp",
+        "source": "Screenshot_20261017_091911.jpg",
+        "crop": [
+          35,
+          500,
+          1100,
+          1565
+        ],
+        "kind": "reference"
+      },
+      {
+        "url": "/samples/summer-rain-5.webp",
+        "source": "Screenshot_20261017_091922.jpg",
+        "crop": [
+          35,
+          500,
+          1100,
+          1565
+        ],
+        "kind": "reference"
+      }
+    ],
+    "note": "Creator recommends portraits in overcast light; can also work in other lighting.",
+    "sourceScreenshots": [
+      "091918",
+      "091927"
+    ]
+  },
+  {
+    "id": "dote-classic-chrome",
+    "name": "Dote’s Classic Chrome",
+    "creator": "vincent.dote",
+    "tag": "Everyday",
+    "description": "Warm daylight color with a gentle, nostalgic finish.",
+    "settings": {
+      "Film simulation": "Classic Chrome",
+      "Dynamic range": "DR200",
+      "Grain effect": "Strong · size not specified",
+      "Color Chrome": "Strong",
+      "Color Chrome FX Blue": "Not specified",
+      "White balance": "Daylight",
+      "WB shift": "R +2 · B −6",
+      "Highlight": "−1",
+      "Shadow": "−1",
+      "Color": "+2",
+      "Sharpness": "−2",
+      "High ISO NR": "−4",
+      "Clarity": "Not specified",
+      "ISO": "Auto · up to 6400",
+      "Exposure compensation": "+⅔ to +1"
+    },
+    "images": [
+      {
+        "url": "/samples/dote-classic-chrome-1.webp",
+        "source": "Screenshot_20261017_091940.jpg",
+        "crop": [
+          245,
+          820,
+          545,
+          1120
+        ],
+        "kind": "reference"
+      }
+    ],
+    "note": "Name distinguishes this creator’s recipe from the base film simulation. The source is a video screenshot; its title is excluded from this preview.",
+    "sourceScreenshots": [
+      "091940"
+    ]
+  }
+]

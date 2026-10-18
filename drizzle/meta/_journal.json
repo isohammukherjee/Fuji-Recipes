@@ -15,6 +15,13 @@
       "when": 1792225200000,
       "tag": "0001_curated_square_references",
       "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "6",
+      "when": 1792294200000,
+      "tag": "0002_confirm_reggies_portra",
+      "breakpoints": true
     }
   ]
 }

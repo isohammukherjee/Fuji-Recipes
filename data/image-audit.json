@@ -16,6 +16,10 @@
     {
       "source": "IMG_20261017_104307.jpg",
       "reason": "Unlabelled photo: cannot confirm Reggie’s Portra association."
+    },
+    {
+      "source": "03-1000464267.jpg",
+      "reason": "Title-card duplicate of clean Opera House sample; use the clean frame instead."
     }
   ],
   "images": [
@@ -759,6 +763,120 @@
       ],
       "sha256": "088f4c78bf5546f2ce640d89ae8901677695b250ecf44dd9a7e3f425b5108e6c",
       "association": "Explicit numbered pair: photo 5 and recipe 5 from the Scotland post. Crop excludes Instagram chrome, slide badge and title panel."
+    },
+    {
+      "recipe_id": "reggies-portra",
+      "recipe_name": "Reggie’s Portra",
+      "source": "04-1000464268.jpg",
+      "original_post_screenshot": "1000464275.jpg",
+      "crop": [
+        32,
+        360,
+        658,
+        986
+      ],
+      "output": "/samples/reggies-portra-99d61d1537c9.webp",
+      "dimensions": [
+        626,
+        626
+      ],
+      "sha256": "99d61d1537c922b7636dc72ad4555ac469be83ff1656b9b87bb72fe9b33090ba",
+      "association": "Explicit Reggie’s Portra X100VI post: matching title and settings screenshots supplied with this Sydney photo sequence."
+    },
+    {
+      "recipe_id": "reggies-portra",
+      "recipe_name": "Reggie’s Portra",
+      "source": "05-1000464269.jpg",
+      "original_post_screenshot": "1000464275.jpg",
+      "crop": [
+        32,
+        360,
+        658,
+        986
+      ],
+      "output": "/samples/reggies-portra-1bf794040693.webp",
+      "dimensions": [
+        626,
+        626
+      ],
+      "sha256": "1bf79404069340e70e53b6238df5578949a30e8d2eda32781dbc53fd9b51afb8",
+      "association": "Explicit Reggie’s Portra X100VI post: matching title and settings screenshots supplied with this Sydney photo sequence."
+    },
+    {
+      "recipe_id": "reggies-portra",
+      "recipe_name": "Reggie’s Portra",
+      "source": "06-1000464270.jpg",
+      "original_post_screenshot": "1000464275.jpg",
+      "crop": [
+        32,
+        360,
+        658,
+        986
+      ],
+      "output": "/samples/reggies-portra-718dadd4b919.webp",
+      "dimensions": [
+        626,
+        626
+      ],
+      "sha256": "718dadd4b919fc430768d83bd5d4046b60b961d3bbab5cb9eb0eaae77193bbf6",
+      "association": "Explicit Reggie’s Portra X100VI post: matching title and settings screenshots supplied with this Sydney photo sequence."
+    },
+    {
+      "recipe_id": "reggies-portra",
+      "recipe_name": "Reggie’s Portra",
+      "source": "07-1000464271.jpg",
+      "original_post_screenshot": "1000464275.jpg",
+      "crop": [
+        32,
+        360,
+        658,
+        986
+      ],
+      "output": "/samples/reggies-portra-de8c4862928b.webp",
+      "dimensions": [
+        626,
+        626
+      ],
+      "sha256": "de8c4862928b712cb22194e67aa18871bf7457b21d8803bc3034fbff03b0ac6f",
+      "association": "Explicit Reggie’s Portra X100VI post: matching title and settings screenshots supplied with this Sydney photo sequence."
+    },
+    {
+      "recipe_id": "reggies-portra",
+      "recipe_name": "Reggie’s Portra",
+      "source": "08-1000464272.jpg",
+      "original_post_screenshot": "1000464275.jpg",
+      "crop": [
+        32,
+        360,
+        658,
+        986
+      ],
+      "output": "/samples/reggies-portra-81cfc47df3b4.webp",
+      "dimensions": [
+        626,
+        626
+      ],
+      "sha256": "81cfc47df3b4e87c3ccf392d883d5e67fa1a7ca8aa736222bef7f17931dbfe64",
+      "association": "Explicit Reggie’s Portra X100VI post: matching title and settings screenshots supplied with this Sydney photo sequence."
+    },
+    {
+      "recipe_id": "reggies-portra",
+      "recipe_name": "Reggie’s Portra",
+      "source": "09-1000464274.jpg",
+      "original_post_screenshot": "1000464275.jpg",
+      "crop": [
+        32,
+        360,
+        658,
+        986
+      ],
+      "output": "/samples/reggies-portra-f889ea6da783.webp",
+      "dimensions": [
+        626,
+        626
+      ],
+      "sha256": "f889ea6da783fd9f836f69f6bdff8dc269c9709a1bc5bd655682c02deb3d965c",
+      "association": "Explicit Reggie’s Portra X100VI post: matching title and settings screenshots supplied with this Sydney photo sequence."
     }
   ]
 }

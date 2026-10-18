@@ -5,7 +5,7 @@ import hashlib,json,sqlite3
 root=Path(__file__).resolve().parent.parent
 recipes=json.loads((root/'data/recipes.json').read_text());audit=json.loads((root/'data/image-audit.json').read_text())
 photos=[(r,p) for r in recipes for p in r['images']]
-assert len(recipes)==19 and len(photos)==39
+assert len(recipes)==19 and len(photos)==45
 assert len(audit['images'])==len(photos)
 urls=set()
 for recipe,p in photos:
@@ -22,6 +22,7 @@ db.execute('INSERT INTO recipes VALUES (?,?)',('winter-season','{"id":"winter-se
 db.execute('INSERT INTO favorites VALUES (?,?,?)',('alice:winter-season','alice','winter-season'))
 db.execute('INSERT INTO samples VALUES (?,?,?,?)',('own-shot','winter-season','alice',1))
 db.executescript((root/'drizzle/0001_curated_square_references.sql').read_text())
+db.executescript((root/'drizzle/0002_confirm_reggies_portra.sql').read_text())
 actual={r[0]:json.loads(r[1]) for r in db.execute('SELECT id,data FROM recipes')}
 assert actual=={r['id']:r for r in recipes}
 assert db.execute('SELECT COUNT(*) FROM favorites').fetchone()[0]==1

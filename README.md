@@ -2,12 +2,13 @@
 
 A mobile-first, private React field companion for Soham’s Fujifilm recipe collection. Built with React 19, TypeScript, Vinext, Cloudflare D1 and R2.
 
-## First collection
+## Recipe collection
 
-19 recipes and 39 verified square sample photographs, from **Fuji Recipes Batch 1.zip**, the user-cropped replacement ZIP and five explicitly paired Scotland recipe screenshots. All former bundled images have been removed. The replacement media are genuinely square, at most 1080 × 1080, and use immutable content-hashed filenames. The old unlabelled Mount Fuji samples are withheld from Reggie’s Portra; the recipe remains available without an unverified cover. One duplicate title card and one unusable text-covered frame are excluded. Food collages are split into separate photographs. Dote’s available title cards allow only a small text-free photo crop; its note records this limit. Instagram controls, caption areas and recipe titles are excluded from the reference images. Crops are recorded in `data/recipes.json` with screenshot filenames and creator credits. Two recipes without published names use descriptive catalog names (Fall City and Warm Table). Reggie’s Portra has no assigned samples until their association is confirmed. Winter Season uses the creator’s corrected name rather than the old Kodak Portra 800 label. Missing settings remain unspecified; they are never replaced with guessed defaults.
+19 recipes and 45 square reference photos. The user-supplied cropped replacement collection and five Scotland variants are retained; six explicitly paired Sydney frames now provide Reggie’s Portra references. Its settings follow the supplied source, including ISO Auto up to 6400 and exposure compensation typically +⅓ to +1. Recipe credit: Reggie B and fujifilmsimulations.com. Previously ambiguous Mount Fuji images remain excluded. All image files are square, at most 1080 × 1080, and content-hashed; sample colors are not altered. Source filenames, crop bounds, hashes and associations are recorded in `data/image-audit.json`.
 
 ## Features
 
+- Simple collection now fills the available width and uses two square cards per row. Phone controls and text use larger, heavier type with higher contrast; a physical-screen fallback compensates when mobile browsers report a desktop viewport. Full layout retains its established design.
 - Simple recipe detail dedicates roughly 60% of its available content area to a square, fixed photo stage and 40% to independently scrolling recipe settings; landscape uses side-by-side panes. Compact title bar and bottom navigation keep essential controls available.
 - Native swipe/trackpad horizontal scrolling and mouse dragging in both the recipe gallery and enlarged viewer; thumbnails and mood strips also support mouse drag. Gallery dimensions are reserved before images load. List entrance/hover transforms are disabled, server ordering is deterministic, and returning from a recipe restores the list position.
 - `data/image-audit.json` records every source file, numbered recipe association, crop, output dimensions and checksum. `scripts/import-curated-media.py` rebuilds references without color changes. `python scripts/verify-media.py` checks encoded dimensions, hashes, associations and database migration correctness.
@@ -20,7 +21,7 @@ A mobile-first, private React field companion for Soham’s Fujifilm recipe coll
 - Outdoor Field view with larger settings and a larger photo-first Simple detail layout on phones. Daylight and dark appearance, reduced-motion support.
 - Upload your own JPEG/PNG/WebP samples with a square crop preview and horizontal/vertical crop controls. Images are normalized to square JPEG at up to 1080 × 1080 without upscaling; the API rejects rectangular or larger encodings before storage. They are saved to R2, associated with the recipe in D1, and available on your other signed-in devices. Your own samples can be removed.
 - Hosted private access through ChatGPT authentication. All personal reads/writes check identity. Upload and favorite operations check same-origin requests. Server validates upload size, type, signatures and ownership.
-- Install metadata for browser Add to Home Screen. Native Android/iOS packaging and offline caching are future work; this version requires connectivity for syncing and uploads.
+- Install metadata for browser Add to Home Screen. iOS packaging and browser offline caching are future work; this version requires connectivity for syncing and uploads.
 
 ## Development
 
@@ -34,8 +35,10 @@ Read screenshots in chronological order, identify settings and samples from the 
 
 ## Architecture and portability
 
-`app/page.tsx` is the React interface. `app/api/collection` stores recipes/favorites; `app/api/samples` stores user images. D1 stores structured records and R2 stores personal image bytes. Bundled references are versioned with the source. The frontend talks to HTTP APIs, so it can later be packaged in an Android/iOS shell or share data and UI logic with native clients. There is no native build in this release.
+`app/page.tsx` is the React interface. `app/api/collection` stores recipes/favorites; `app/api/samples` stores user images. D1 stores structured records and R2 stores personal image bytes. Bundled references are versioned with the source. The frontend talks to HTTP APIs, so it can later be packaged in an Android/iOS shell or share data and UI logic with native clients. The Android edition bundles the shared React UI and all 45 reference photos for offline use. `app/native-storage.ts` stores native favorites and imported photo blobs in IndexedDB. Device data and web account data are independent; native Layout includes a link to the synced web collection. See `android/README.md` for build and signing instructions.
 
 ## Validation
 
 TypeScript, production compilation, API unit tests and SQLite migration/seed checks are run before publication. Browser visual and end-to-end QA is not available in this session. Physical-device responsiveness, swipe gestures, hosted authentication and cloud upload round trips still need user verification.
+
+The `0002_confirm_reggies_portra.sql` migration updates the stored Reggie record with the confirmed references and source settings. Both data migrations are verified against SQLite before publication.

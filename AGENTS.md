@@ -50,3 +50,8 @@ Future work must extend this design and preserve existing functionality. Do not 
 5. Keep progress and source changes in Git. Share the updated app link and APK when a new build is requested. Never claim a device test was completed unless it actually was.
 
 This document records the user's approved product direction. Later explicit user instructions take precedence.
+
+
+## Scene suggestion knowledge protocol
+
+Every new recipe needs a reviewed entry in `data/recipe-profiles.json` before recommendation participation. Study all settings and correctly paired references; document intent, subject/palette fit, cautions and provenance. Read `docs/recipe-research.md` and `docs/scene-engine.md`. Distinguish creator evidence from settings-based inference. Do not infer intent from recipe names alone or treat votes as verified photographic outcomes. Retain on-device image privacy, explicit feedback, reset, bounded contextual learning and three database-only recommendations. Do not label a failed semantic-model run as successful AI analysis.

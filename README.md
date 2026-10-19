@@ -42,3 +42,7 @@ Read screenshots in chronological order, identify settings and samples from the 
 TypeScript, production compilation, API unit tests and SQLite migration/seed checks are run before publication. Browser visual and end-to-end QA is not available in this session. Physical-device responsiveness, swipe gestures, hosted authentication and cloud upload round trips still need user verification.
 
 The `0002_confirm_reggies_portra.sql` migration updates the stored Reggie record with the confirmed references and source settings. Both data migrations are verified against SQLite before publication.
+
+## Suggest Fuji recipe (1.1)
+
+The new Suggest entry opens gallery/camera input, genuine on-device CLIP scene recognition, measured palette/tonal analysis and three explainable recommendations from the existing 19 recipes. Each result opens the unchanged recipe page. Correct recognized subjects/light or choose a mood. Select My choice, optionally give an aesthetic reason, and Save my choice to personalize future similar scenes. Learned preferences are local, resettable and separate per browser/device; analysis photos are not uploaded. The first analysis downloads roughly 160 MB of model assets plus the runtime. Connectivity, caching and sufficient device memory are required; failures show a retryable error rather than invented semantic analysis. This personalizes recipe ranking, not vision-model weights. Research evidence and limits are in `docs/recipe-research.md`; architecture is in `docs/scene-engine.md`. Every new recipe must have a reviewed intent profile.

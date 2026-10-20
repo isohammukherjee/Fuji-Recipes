@@ -54,3 +54,7 @@ Try look is available on every recipe and suggestion card. Gallery/camera scenes
 ## Dote reference and knowledge update
 
 Seven user-approved wide square crops retain creator text and original colors, replacing the old tight Dote title-card crop. All 19 recipes have a connected knowledge record in `data/recipe-profiles.json`, rendered as `public/recipe-mind-map.html` and `docs/recipe-mind-map.md`. Reviewed light suitability participates in ranking; observed screenshots do not calibrate an exact LUT. Regenerate the map with `python scripts/build-recipe-mind-map.py`.
+
+## Live neural analysis map (1.4)
+
+The Suggest flow now has a live evidence tree with inspectable stages and all-recipe branches. Optional local generative vision describes scene context, an independent neural agreement check can reject mismatched descriptions, and image-to-recipe-intent similarity complements measured color/light and documented artistic rules. Full-screen recipe previews expose actual rendering stages. Photos stay temporary. Initial larger-mode downloads are approximately 245 MB in addition to recognition models/runtime. See `docs/neural-analysis.md` for provenance, validation and limits.

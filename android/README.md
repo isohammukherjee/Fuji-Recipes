@@ -1,4 +1,4 @@
-# Fuji Recipes for Android — 1.3.0
+# Fuji Recipes for Android — 1.4.0
 
 An installable offline Android edition using the exact shared React UI, photo gallery, settings, themes, search, filters, favorites and square photo import flow. It bundles 19 recipes and 51 reference images. Android 8.0 / API 26 or newer is required.
 
@@ -11,7 +11,7 @@ The offline Android data and signed-in website data are independent; cloud synch
 Install Java 17 or newer, Android SDK platform 36 and build-tools 36.0.0. If only a Java runtime is available, the helper uses the pinned Eclipse ECJ 3.42.0 compiler. Install the repository's Node dependencies first. Then run from the repository root:
 
 ```sh
-python android/build-apk.py --sdk /path/to/android-sdk --keystore /private/path/Fuji-Recipes-Development.keystore --output /output/Fuji-Recipes-1.3.0.apk
+python android/build-apk.py --sdk /path/to/android-sdk --keystore /private/path/Fuji-Recipes-Development.keystore --output /output/Fuji-Recipes-1.4.0.apk
 ```
 
 The helper builds Vite assets from `app/page.tsx`, compiles native resources and Java bytecode, runs D8, aligns the APK, signs it and verifies its certificate and alignment. If a development signing keystore does not yet exist, it creates one with alias `fuji-recipes`. The default development password is `android`; set `FUJI_SIGNING_PASSWORD` for a different password. Preserve the same keystore for future installable updates. Do not commit signing keys.
@@ -33,3 +33,7 @@ Adds temporary recipe previews, before/after comparison, a shared in-memory gall
 ## Version 1.3 reference knowledge
 
 Seven wide, lossless Dote reference crops replace the old tight crop. The bundled recipe mind map covers all 19 recipes and contributes reviewed lighting suitability to ranking. Reference observations are not treated as calibrated LUT data.
+
+## Version 1.4 live evidence graph
+
+Adds event-driven analysis and preview trees, optional local Florence-2-base visual-language observations, neural image-to-recipe-intent matching, spatial brightness measurement and photographic assessment. Generative vision downloads approximately 245 MB in addition to the roughly 170 MB recognition models and runtime. Execution remains CPU/WASM for Android compatibility, uses one thread, bounds image size and generated output, and releases generative model sessions before recognition. Model failures are visibly marked unavailable; quick mode remains usable. No external inference API, photo upload, exact Fuji emulation, neural-activation visualization or private reasoning transcript is claimed.

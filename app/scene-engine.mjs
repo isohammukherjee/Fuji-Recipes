@@ -1,5 +1,6 @@
+import {corroboratedContext} from '../public/artistic-assessment.js';
 // All scores are relative ranking signals, never calibrated probabilities.
-export const ENGINE_VERSION='scene-2.1';
+export const ENGINE_VERSION='scene-3.0';
 export const SUBJECTS={portrait:'a portrait of a person or people',street:'a street with people and everyday activity',architecture:'buildings and architectural details',landscape:'mountains and open countryside',forest:'trees and green forest foliage',coast:'a beach, ocean, river or lake',food:'food, coffee or a meal on a table',flowers:'flowers and colorful plants',animals:'an animal, bird or pet',night:'a city at night with neon lights',interior:'an indoor room or cafe',snow:'a snowy winter landscape',festival:'a colorful festival or celebration', 'still-life':'a still life of objects and products'};
 export const LIGHTS={daylight:'a scene in bright daylight with hard sunlight',overcast:'a scene under soft overcast light',golden:'a scene in warm golden hour sunlight',night:'a scene in low light at night',artificial:'a scene with indoor artificial lighting',backlit:'a backlit scene with bright highlights and dark shadows',fog:'a scene in mist or fog',mixed:'a scene under mixed cool daylight and warm artificial lighting'};
 const clamp=(n,a=0,b=1)=>Math.max(a,Math.min(b,n));
@@ -22,12 +23,14 @@ export function evaluateRecipes(recipes,profiles,scene,mood='auto',memory=[]){
  const scoreObjects=scene.objects||[];
  return recipes.filter(r=>profiles[r.id]).map(r=>{
   const p=profiles[r.id],s=r.settings,mono=/Acros|Monochrome/.test(s['Film simulation']);const evidence=[],warnings=[p.caution];
-  const parts={subject:0,palette:0,light:0,intent:0,render:0,preference:0};
+  const parts={subject:0,palette:0,light:0,intent:0,render:0,context:0,preference:0};
   scene.subjects.slice(0,3).forEach((name,i)=>{if(p.subjects.includes(name))parts.subject+=[4,1.5,.65][i];});
   if(people&&p.subjects.includes('portrait'))parts.subject+=1.8;
   if(parts.subject) evidence.push(`The ${scene.subjects[0]||'main subject'} context${people?' with people present':''} fits this recipe’s intended subjects.`);
   const colors=scene.palette.filter(c=>c.name!=='neutral'&&p.palette.includes(c.name));parts.palette=Math.min(1.5,colors.reduce((a,b)=>a+b.share*3,0));
   if(colors.length)evidence.push(`${colors.slice(0,2).map(c=>c.name).join(' / ')} are present; ${scene.harmony} can support this palette.`);
+  const neural=scene.neuralIntent?.[r.id];if(Number.isFinite(neural)){parts.context+=Math.max(0,Math.min(1,neural))*1.25;}
+  const context=corroboratedContext(scene,p);if(context.length){parts.context+=Math.min(.6,context.length*.2);evidence.push(`Corroborated scene context: ${context.join(' / ')} also appears in this recipe’s reviewed references.`);}
   const color=settingValue(s.Color),shadow=settingValue(s.Shadow),hi=settingValue(s.Highlight),wb=s['White balance'];
   if(p.preferredLighting?.includes(scene.light)){parts.light+=.65;evidence.push(`The ${scene.light} light fits the reviewed recipe knowledge map.`);}
   const mixed=['artificial','night','mixed'].includes(scene.light);
@@ -48,6 +51,7 @@ export function evaluateRecipes(recipes,profiles,scene,mood='auto',memory=[]){
   }
   let examples=0;for(const m of memory){if(!m.context||!Array.isArray(m.context.subjects))continue;const sim=similarity(sceneContext(scene),m.context);if(sim<.65)continue;if(m.recipeId===r.id){parts.preference+=sim*.25;examples++;}if(m.reason&&p.moods.includes(m.reason))parts.preference+=sim*.1;}
   parts.preference=clamp(parts.preference,0,1);if(examples)evidence.push(`Your choices in ${examples} similar scenes add a small preference adjustment.`);
+  if(Number.isFinite(neural))evidence.push('Neural image-to-intent matching contributes a bounded signal; it does not prove photographic suitability.');
   if(wb!=='Auto')warnings.push(`WB ${wb} is illuminant-dependent; compare under the actual light.`);
   if(scene.highlight>.03)warnings.push('Existing clipped JPEG highlights cannot be recovered by changing recipes.');
   const score=Object.values(parts).reduce((a,b)=>a+b,0);

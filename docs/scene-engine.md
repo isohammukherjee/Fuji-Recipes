@@ -43,3 +43,7 @@ Read `recipe-research.md` before altering intent profiles. Exact creator evidenc
 ## Version 2.1 knowledge map (Android 1.3)
 
 `data/recipe-profiles.json` is the single reviewed knowledge record for all 19 recipes, extended with source-reference observations, preferred lighting, related alternatives and preview assumptions. `scripts/build-recipe-mind-map.py` generates `public/recipe-mind-map.html` and `docs/recipe-mind-map.md`. Scene ranking reads the same fields and applies a bounded +0.65 lighting fit alongside subject, palette, mood, clipping and preference checks. Dote now supports still-life/interior intent from the seven user-approved references. The map links nearby looks with specific differences rather than merging similar variants. No added LUT calibration or vision training is claimed. The renderer still uses exact saved settings and documented approximate film responses; screenshot colors do not adjust its coefficients. New evidence should refine the interpretation before any calibrated transform is introduced.
+
+## Version 3.0 / Android 1.4
+
+See `neural-analysis.md` for the generative visual observation model, independent agreement gate, bounded neural recipe-intent contribution, spatial brightness assessment and event-driven analysis/render trees. Neural observation and measured evidence are explicitly separated from heuristic artistic interpretation.

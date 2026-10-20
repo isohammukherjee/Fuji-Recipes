@@ -59,3 +59,7 @@ Every new recipe needs a reviewed entry in `data/recipe-profiles.json` before re
 ## Recipe knowledge updates
 
 Retain creator text when the user permits it. Prefer wide context-preserving square crops to text-free tight crops; never recolor reference pixels. For every recipe, extend `data/recipe-profiles.json` with observed appearance, preferred lighting, related alternatives, preview assumptions and explicit evidence limits. Run `python scripts/build-recipe-mind-map.py` to keep the browsable map and saved Markdown aligned. Never infer a calibrated LUT from unpaired recipe screenshots or their overlaid title colors.
+
+## Live analysis integrity
+
+Emit graph events from actual model/measurement/render/selection completions. Never simulate completion or call the graph private model reasoning or actual neural activations. Keep model observations, measured evidence, artistic heuristics and user preference separate. Reject uncorroborated generated context; maintain quick mode and visible failure states. Read `docs/neural-analysis.md` before changing this pipeline.

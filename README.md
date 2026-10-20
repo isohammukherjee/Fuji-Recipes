@@ -4,7 +4,7 @@ A mobile-first, private React field companion for Soham’s Fujifilm recipe coll
 
 ## Recipe collection
 
-19 recipes and 45 square reference photos. The user-supplied cropped replacement collection and five Scotland variants are retained; six explicitly paired Sydney frames now provide Reggie’s Portra references. Its settings follow the supplied source, including ISO Auto up to 6400 and exposure compensation typically +⅓ to +1. Recipe credit: Reggie B and fujifilmsimulations.com. Previously ambiguous Mount Fuji images remain excluded. All image files are square, at most 1080 × 1080, and content-hashed; sample colors are not altered. Source filenames, crop bounds, hashes and associations are recorded in `data/image-audit.json`.
+19 recipes and 51 square reference photos. The user-supplied cropped replacement collection and five Scotland variants are retained; six explicitly paired Sydney frames now provide Reggie’s Portra references. Its settings follow the supplied source, including ISO Auto up to 6400 and exposure compensation typically +⅓ to +1. Recipe credit: Reggie B and fujifilmsimulations.com. Previously ambiguous Mount Fuji images remain excluded. All image files are square, at most 1080 × 1080, and content-hashed; sample colors are not altered. Source filenames, crop bounds, hashes and associations are recorded in `data/image-audit.json`.
 
 ## Features
 
@@ -35,7 +35,7 @@ Read screenshots in chronological order, identify settings and samples from the 
 
 ## Architecture and portability
 
-`app/page.tsx` is the React interface. `app/api/collection` stores recipes/favorites; `app/api/samples` stores user images. D1 stores structured records and R2 stores personal image bytes. Bundled references are versioned with the source. The frontend talks to HTTP APIs, so it can later be packaged in an Android/iOS shell or share data and UI logic with native clients. The Android edition bundles the shared React UI and all 45 reference photos for offline use. `app/native-storage.ts` stores native favorites and imported photo blobs in IndexedDB. Device data and web account data are independent; native Layout includes a link to the synced web collection. See `android/README.md` for build and signing instructions.
+`app/page.tsx` is the React interface. `app/api/collection` stores recipes/favorites; `app/api/samples` stores user images. D1 stores structured records and R2 stores personal image bytes. Bundled references are versioned with the source. The frontend talks to HTTP APIs, so it can later be packaged in an Android/iOS shell or share data and UI logic with native clients. The Android edition bundles the shared React UI and all 51 reference photos for offline use. `app/native-storage.ts` stores native favorites and imported photo blobs in IndexedDB. Device data and web account data are independent; native Layout includes a link to the synced web collection. See `android/README.md` for build and signing instructions.
 
 ## Validation
 
@@ -49,4 +49,8 @@ The new Suggest entry opens gallery/camera input, genuine on-device CLIP scene r
 
 ## Scene previews and improved suggestions (1.2)
 
-Try look is available on every recipe and suggestion card. Gallery/camera scenes are shared only in memory, with before/after recipe approximations and explicit lighting assumptions; Clear or app reload discards them. No preview photo is uploaded or added to the collection. Suggestions now include an object detector, a full comparison across all 19 recipes, and cautious checks against each approximate render. Reanalyze repeats recognition; Regenerate explores other nearby directions. These are documented heuristic previews, not official Fuji LUTs or calibrated camera output. Dote's additional references have not been added: exact-source verification and user selection remain pending. See `docs/scene-engine.md`.
+Try look is available on every recipe and suggestion card. Gallery/camera scenes are shared only in memory, with before/after recipe approximations and explicit lighting assumptions; Clear or app reload discards them. No preview photo is uploaded or added to the collection. Suggestions now include an object detector, a full comparison across all 19 recipes, and cautious checks against each approximate render. Reanalyze repeats recognition; Regenerate explores other nearby directions. These are documented heuristic previews, not official Fuji LUTs or calibrated camera output. Dote's additional references were pending in 1.2 and are now supplied and approved in 1.3. See `docs/scene-engine.md`.
+
+## Dote reference and knowledge update
+
+Seven user-approved wide square crops retain creator text and original colors, replacing the old tight Dote title-card crop. All 19 recipes have a connected knowledge record in `data/recipe-profiles.json`, rendered as `public/recipe-mind-map.html` and `docs/recipe-mind-map.md`. Reviewed light suitability participates in ranking; observed screenshots do not calibrate an exact LUT. Regenerate the map with `python scripts/build-recipe-mind-map.py`.

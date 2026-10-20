@@ -29,3 +29,9 @@ Queries included exact/variant recipe titles, `vincent.dote`, `justvcnt`, `vince
 ## Next evidence needed
 
 The original creator recipe post permalink or original full carousel would allow source verification, matching recipe settings, and a numbered visual shortlist for the user. Creator portfolio images must not be treated as recipe examples solely because they look similar. New photos remain subject to user selection and exact provenance checks.
+
+## Resolved by user-supplied samples — 20 October 2026
+
+The earlier independent-web verification gap above is retained as research history. The user has now supplied and approved seven explicit Dote Classic Chrome screenshots, superseding the pending selection step. Seven 691×691 lossless square crops replace the old 460px title-card fragment. Text is intentionally retained per user instruction; framing keeps scene, surfaces and lighting visible. No source colors were changed. `data/image-audit.json` records exact crops, original screenshot hashes, output hashes and scene descriptions. See `public/dote-reference-crops.webp` for the contact sheet.
+
+Observed: warm wood and skin, cream lit surfaces, charcoal felt, gray gear, orange object accents and a muted city view. Fixed daylight WB and window illumination are important context; observed amber appearance does not prove the recipe alone caused it. Orange lettering is an overlay and is excluded from palette conclusions. Exact saved settings and unspecified fields are unchanged. The expanded profile remains explicit about this evidence limit.

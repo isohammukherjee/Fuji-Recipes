@@ -1,5 +1,5 @@
 // All scores are relative ranking signals, never calibrated probabilities.
-export const ENGINE_VERSION='scene-2.0';
+export const ENGINE_VERSION='scene-2.1';
 export const SUBJECTS={portrait:'a portrait of a person or people',street:'a street with people and everyday activity',architecture:'buildings and architectural details',landscape:'mountains and open countryside',forest:'trees and green forest foliage',coast:'a beach, ocean, river or lake',food:'food, coffee or a meal on a table',flowers:'flowers and colorful plants',animals:'an animal, bird or pet',night:'a city at night with neon lights',interior:'an indoor room or cafe',snow:'a snowy winter landscape',festival:'a colorful festival or celebration', 'still-life':'a still life of objects and products'};
 export const LIGHTS={daylight:'a scene in bright daylight with hard sunlight',overcast:'a scene under soft overcast light',golden:'a scene in warm golden hour sunlight',night:'a scene in low light at night',artificial:'a scene with indoor artificial lighting',backlit:'a backlit scene with bright highlights and dark shadows',fog:'a scene in mist or fog',mixed:'a scene under mixed cool daylight and warm artificial lighting'};
 const clamp=(n,a=0,b=1)=>Math.max(a,Math.min(b,n));
@@ -29,6 +29,7 @@ export function evaluateRecipes(recipes,profiles,scene,mood='auto',memory=[]){
   const colors=scene.palette.filter(c=>c.name!=='neutral'&&p.palette.includes(c.name));parts.palette=Math.min(1.5,colors.reduce((a,b)=>a+b.share*3,0));
   if(colors.length)evidence.push(`${colors.slice(0,2).map(c=>c.name).join(' / ')} are present; ${scene.harmony} can support this palette.`);
   const color=settingValue(s.Color),shadow=settingValue(s.Shadow),hi=settingValue(s.Highlight),wb=s['White balance'];
+  if(p.preferredLighting?.includes(scene.light)){parts.light+=.65;evidence.push(`The ${scene.light} light fits the reviewed recipe knowledge map.`);}
   const mixed=['artificial','night','mixed'].includes(scene.light);
   if(mixed){parts.light+=wb==='Auto'?1.5:-2.3;if(wb!=='Auto')warnings.push('Fixed WB may exaggerate the mixed/artificial-light cast.');}
   if(scene.contrast>.6){parts.light+=hi<0?.8:-hi*.25;if(shadow>1)parts.light-=.7;if(s['Dynamic range']==='DR400')parts.light+=.5;}

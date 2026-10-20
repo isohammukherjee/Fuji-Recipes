@@ -651,25 +651,6 @@
       "association": "Matched visually to the original post and its recipe settings."
     },
     {
-      "recipe_id": "dote-classic-chrome",
-      "recipe_name": "Dote’s Classic Chrome",
-      "source": "IMG_20261017_110106.jpg",
-      "original_post_screenshot": "Screenshot_20261017_091936.jpg",
-      "crop": [
-        0,
-        420,
-        460,
-        880
-      ],
-      "output": "/samples/dote-classic-chrome-6f9de5b8057f.webp",
-      "dimensions": [
-        460,
-        460
-      ],
-      "sha256": "6f9de5b8057fcf6a75449d94e32a9c417f19f6f8208c3acd82e47e5ec37f71ee",
-      "association": "Matched visually to the original post and its recipe settings."
-    },
-    {
       "recipe_id": "calm-sea-scotland",
       "recipe_name": "Calm Sea · Scotland",
       "source": "01-1000463191.jpg",
@@ -877,6 +858,153 @@
       ],
       "sha256": "f889ea6da783fd9f836f69f6bdff8dc269c9709a1bc5bd655682c02deb3d965c",
       "association": "Explicit Reggie’s Portra X100VI post: matching title and settings screenshots supplied with this Sydney photo sequence."
+    },
+    {
+      "recipe_id": "dote-classic-chrome",
+      "recipe_name": "Dote’s Classic Chrome",
+      "source": "01-1000466090.jpg",
+      "source_sha256": "145afd4cecd1ec7e06dd35d2299e8fa95956ab5f8ff27891b0ebebf196b8916f",
+      "crop": [
+        0,
+        360,
+        691,
+        1051
+      ],
+      "output": "/samples/dote-classic-chrome-960109ba41fc.webp",
+      "dimensions": [
+        691,
+        691
+      ],
+      "sha256": "960109ba41fc87a09dc8f5fee7318ed83193115f94c3d275de8119a163a8b20a",
+      "association": "User supplied and approved Vincent Dote Classic Chrome sample; creator title and credit retained.",
+      "scene": "Framed art, wood slats and cream wall",
+      "processing": "Lossless WebP crop only; full source width, no color change, no upscaling."
+    },
+    {
+      "recipe_id": "dote-classic-chrome",
+      "recipe_name": "Dote’s Classic Chrome",
+      "source": "02-1000466091.jpg",
+      "source_sha256": "587d489701b743f944cc456123804c03bcfec575d554c34ab5ba8105eb04ceca",
+      "crop": [
+        0,
+        350,
+        691,
+        1041
+      ],
+      "output": "/samples/dote-classic-chrome-b0e179be3d28.webp",
+      "dimensions": [
+        691,
+        691
+      ],
+      "sha256": "b0e179be3d282182420b8afc5347145f74b57b76349c2a4d6c1dcc80240920c0",
+      "association": "User supplied and approved Vincent Dote Classic Chrome sample; creator title and credit retained.",
+      "scene": "Desk objects, plant and hard window light",
+      "processing": "Lossless WebP crop only; full source width, no color change, no upscaling."
+    },
+    {
+      "recipe_id": "dote-classic-chrome",
+      "recipe_name": "Dote’s Classic Chrome",
+      "source": "03-1000466092.jpg",
+      "source_sha256": "a08b1cf40c2d82a8412e6924037f5bb07b5d1c01932da791f5e515c7fed7a1fc",
+      "crop": [
+        0,
+        410,
+        691,
+        1101
+      ],
+      "output": "/samples/dote-classic-chrome-4ea5b655044a.webp",
+      "dimensions": [
+        691,
+        691
+      ],
+      "sha256": "4ea5b655044a34c06b2ed7cb7134e88a76b370e2a629d6233cb20fa2f1fd2279",
+      "association": "User supplied and approved Vincent Dote Classic Chrome sample; creator title and credit retained.",
+      "scene": "Hand, keyboard, phone and felt desk mat",
+      "processing": "Lossless WebP crop only; full source width, no color change, no upscaling."
+    },
+    {
+      "recipe_id": "dote-classic-chrome",
+      "recipe_name": "Dote’s Classic Chrome",
+      "source": "04-1000466093.jpg",
+      "source_sha256": "cddb3996476703a930b48bab8d04f5544fc1e7129c14802788b2c2f76097bb60",
+      "crop": [
+        0,
+        400,
+        691,
+        1091
+      ],
+      "output": "/samples/dote-classic-chrome-c8a27832b422.webp",
+      "dimensions": [
+        691,
+        691
+      ],
+      "sha256": "c8a27832b4222ffb452986e678253ad4f34ddae5702433608f090d9d7cb26841",
+      "association": "User supplied and approved Vincent Dote Classic Chrome sample; creator title and credit retained.",
+      "scene": "Pale phone, mouse, felt and warm wood",
+      "processing": "Lossless WebP crop only; full source width, no color change, no upscaling."
+    },
+    {
+      "recipe_id": "dote-classic-chrome",
+      "recipe_name": "Dote’s Classic Chrome",
+      "source": "05-1000466094.jpg",
+      "source_sha256": "83220178f624d8990b3f9a698b68200ec6f09049cf3cb632e43f7a3a26f1a2d1",
+      "crop": [
+        0,
+        480,
+        691,
+        1171
+      ],
+      "output": "/samples/dote-classic-chrome-c2b5986bd6ac.webp",
+      "dimensions": [
+        691,
+        691
+      ],
+      "sha256": "c2b5986bd6ac0477ca6ab376911590ee378b95bab08ad9d9c0f753a80135a2cd",
+      "association": "User supplied and approved Vincent Dote Classic Chrome sample; creator title and credit retained.",
+      "scene": "Warm skin and transmitter against a sunlit room",
+      "processing": "Lossless WebP crop only; full source width, no color change, no upscaling."
+    },
+    {
+      "recipe_id": "dote-classic-chrome",
+      "recipe_name": "Dote’s Classic Chrome",
+      "source": "06-1000466095.jpg",
+      "source_sha256": "8db2b504c3d2ad06ef0a81db93bdc51c9eab7c9362fde0e4d9b45dd652b59178",
+      "crop": [
+        0,
+        600,
+        691,
+        1291
+      ],
+      "output": "/samples/dote-classic-chrome-3bd62505f7dc.webp",
+      "dimensions": [
+        691,
+        691
+      ],
+      "sha256": "3bd62505f7dca36b8674bd998d505706546896c2ae35843491175aa67a5a540b",
+      "association": "User supplied and approved Vincent Dote Classic Chrome sample; creator title and credit retained.",
+      "scene": "City buildings and pale sky through a window",
+      "processing": "Lossless WebP crop only; full source width, no color change, no upscaling."
+    },
+    {
+      "recipe_id": "dote-classic-chrome",
+      "recipe_name": "Dote’s Classic Chrome",
+      "source": "07-1000466096.jpg",
+      "source_sha256": "cd804d2a080cd9c685384daccfad9ec1cbdd7e2a1d724cf1ce490591507e4f8b",
+      "crop": [
+        0,
+        430,
+        691,
+        1121
+      ],
+      "output": "/samples/dote-classic-chrome-a3be253be0c8.webp",
+      "dimensions": [
+        691,
+        691
+      ],
+      "sha256": "a3be253be0c866b6e4cd50db553cf91992cbba245eba8a9410102178b2803c0d",
+      "association": "User supplied and approved Vincent Dote Classic Chrome sample; creator title and credit retained.",
+      "scene": "Orange drive, gray surface, plant and deep shadow",
+      "processing": "Lossless WebP crop only; full source width, no color change, no upscaling."
     }
   ]
 }

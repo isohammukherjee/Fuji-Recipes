@@ -22,7 +22,21 @@
       "data/recipes.json",
       "https://fujifilm-dsc.com/en/manual/x-s20/menu_shooting/image_quality_setting/"
     ],
-    "evidence": "settings-inference"
+    "evidence": "settings-inference",
+    "preferredLighting": [
+      "daylight",
+      "overcast"
+    ],
+    "referenceObservation": "Potted foliage and paper cups on warm timber; deep leafy shadows and textured, earthy midtones.",
+    "relatedRecipes": [
+      {
+        "id": "reggies-portra",
+        "difference": "Less grain and more forgiving skin from Reggie’s; Winter favors earthy texture."
+      }
+    ],
+    "reviewedAt": "2026-10-20",
+    "previewIntent": "Use the saved film simulation, WB and tone settings for an approximate sRGB preview. Highlight +1 can make bright windows or pale skin more abrupt. The fixed white balance will not neutralize mixed lighting, and grain alone cannot reproduce the recorded Black Mist diffusion.",
+    "evidenceLimits": "Reference appearance is observed; suitability and causal rendering remain interpretations. No paired untreated images or calibrated camera response."
   },
   "reggies-portra": {
     "intent": "A versatile family, portrait and travel look grounded in the creator’s own Portra scans and Filipino family skin tones. Classic Chrome, Auto WB with R +2 / B -4, softened Highlight -1 / Shadow -1 and Color +2 balance a gentle warm palette with readable everyday detail.",
@@ -52,7 +66,22 @@
       "https://fujifilm-dsc.com/en/manual/x-s20/menu_shooting/image_quality_setting/",
       "https://reggiebphotography.com/blog/the-most-versatile-fujifilm-x-trans-iv-film-simulation-recipe-reggies-portra"
     ],
-    "evidence": "creator"
+    "evidence": "creator",
+    "preferredLighting": [
+      "daylight",
+      "overcast",
+      "mixed"
+    ],
+    "referenceObservation": "Sydney waterfront reference: pale architecture, subdued water and sky. Creator evidence additionally supports family and skin.",
+    "relatedRecipes": [
+      {
+        "id": "dote-classic-chrome",
+        "difference": "Auto WB adapts to changing light; Dote fixes daylight and pushes stronger amber warmth."
+      }
+    ],
+    "reviewedAt": "2026-10-20",
+    "previewIntent": "Use the saved film simulation, WB and tone settings for an approximate sRGB preview. The creator uses a CineBloom diffusion filter; Clarity 0 does not recreate that optical glow. Judge exposure per scene instead of treating the catalog +1/3 to +1 range as mandatory, especially on bright skin and windows.",
+    "evidenceLimits": "Reference appearance is observed; suitability and causal rendering remain interpretations. No paired untreated images or calibrated camera response."
   },
   "sunny-day": {
     "intent": "A clean, grain-free daylight option. Astia, DR400 and Highlight -1.5 soften bright detail while Shadow +2 adds structure; Color +3 strengthens sunlit clothes, buildings and greenery. Fixed 4600K is cooler than a typical daylight balance before the small B -1 shift.",
@@ -78,7 +107,20 @@
       "data/recipes.json",
       "https://fujifilm-dsc.com/en/manual/x-s20/menu_shooting/image_quality_setting/"
     ],
-    "evidence": "settings-inference"
+    "evidence": "settings-inference",
+    "preferredLighting": [
+      "daylight"
+    ],
+    "referenceObservation": "Sunlit guitarist, cream clothing, warm skin and green surroundings; hard daylight gives subject shape.",
+    "relatedRecipes": [
+      {
+        "id": "plain-light-scotland",
+        "difference": "Sunny Day uses stronger color and deeper shadows; Plain Light is more restrained."
+      }
+    ],
+    "reviewedAt": "2026-10-20",
+    "previewIntent": "Use the saved film simulation, WB and tone settings for an approximate sRGB preview. Do not infer universally warm skin from the title: 4600K depends on actual light. Shadow +2 may obscure faces in shade; DR400 needs ISO 640 or above on X-S20.",
+    "evidenceLimits": "Reference appearance is observed; suitability and causal rendering remain interpretations. No paired untreated images or calibrated camera response."
   },
   "summer-sauce": {
     "intent": "A warm, low-contrast landscape interpretation. Classic Chrome with DR400, Highlight -2 and Shadow -2 preserves a gentle tonal relationship; R +3 / B -6 and Color +4 favor amber earth against cooler sky, with Clarity -4 reducing definition.",
@@ -104,7 +146,21 @@
       "data/recipes.json",
       "https://fujifilm-dsc.com/en/manual/x-s20/menu_shooting/image_quality_setting/"
     ],
-    "evidence": "settings-inference"
+    "evidence": "settings-inference",
+    "preferredLighting": [
+      "daylight",
+      "golden"
+    ],
+    "referenceObservation": "Alpine scene: warm meadow, darker green trees and blue mountain/cloud separation; gently softened tones.",
+    "relatedRecipes": [
+      {
+        "id": "dreamy-color",
+        "difference": "Summer Sauce is gentler in color than Velvia-based Dreamy Color."
+      }
+    ],
+    "reviewedAt": "2026-10-20",
+    "previewIntent": "Use the saved film simulation, WB and tone settings for an approximate sRGB preview. Strong warmth may discolor neutral architecture or skin. Softened shadows can look flat in already misty light; the catalog records the creator’s optional Shadow 0, but recommendations retain the saved -2.",
+    "evidenceLimits": "Reference appearance is observed; suitability and causal rendering remain interpretations. No paired untreated images or calibrated camera response."
   },
   "dreamy-color": {
     "intent": "Expressive rather than neutral landscape color: Velvia and Color +4 favor strong foliage, flowers and sky; R +6 / B -5 adds warmth, strong Chrome effects deepen saturated colors, while Highlight -1, Shadow -1.5 and Clarity -4 soften tonal and textural edges.",
@@ -131,7 +187,21 @@
       "data/recipes.json",
       "https://fujifilm-dsc.com/en/manual/x-s20/menu_shooting/image_quality_setting/"
     ],
-    "evidence": "settings-inference"
+    "evidence": "settings-inference",
+    "preferredLighting": [
+      "daylight",
+      "overcast"
+    ],
+    "referenceObservation": "Same alpine composition: pronounced green/yellow meadow and violet-pink cloud color; expressive rather than neutral.",
+    "relatedRecipes": [
+      {
+        "id": "summer-sauce",
+        "difference": "Dreamy Color prioritizes vivid hue; Summer Sauce offers a calmer Chrome interpretation."
+      }
+    ],
+    "reviewedAt": "2026-10-20",
+    "previewIntent": "Use the saved film simulation, WB and tone settings for an approximate sRGB preview. Velvia plus maximum color and a strong WB shift can overpower already saturated flowers or skin. Strong FX Blue can make skies dense. A soft look does not imply low saturation.",
+    "evidenceLimits": "Reference appearance is observed; suitability and causal rendering remain interpretations. No paired untreated images or calibrated camera response."
   },
   "soft-rust": {
     "intent": "A dense rust-and-foliage interpretation. Classic Negative, R +6 / B -6 and Color +4 emphasize earthy warm/cool separation; Shadow +2 creates darker hills and DR100 leaves a firmer contrast budget. Clarity -4 softens detail without lifting the shadows.",
@@ -157,7 +227,21 @@
       "data/recipes.json",
       "https://fujifilm-dsc.com/en/manual/x-s20/menu_shooting/image_quality_setting/"
     ],
-    "evidence": "settings-inference"
+    "evidence": "settings-inference",
+    "preferredLighting": [
+      "daylight",
+      "golden"
+    ],
+    "referenceObservation": "Alpine reference: warm grass against dense trees and mountains; pale clouds above dark land.",
+    "relatedRecipes": [
+      {
+        "id": "soft-rust-scotland",
+        "difference": "This earlier variant has DR100 and NR -4; Scotland has DR400 and NR 0."
+      }
+    ],
+    "reviewedAt": "2026-10-20",
+    "previewIntent": "Use the saved film simulation, WB and tone settings for an approximate sRGB preview. DR100 affords less highlight protection than the separate Scotland variant; bright skies need careful exposure. Shadow +2 can crush dark trees, and the large color shift is less suited to neutral product or skin rendering.",
+    "evidenceLimits": "Reference appearance is observed; suitability and causal rendering remain interpretations. No paired untreated images or calibrated camera response."
   },
   "calm-sea": {
     "intent": "An Astia-based soft landscape alternative with Shade WB and B +1, Color +2 and reduced Clarity -4. DR400 moderates highlight loss but Highlight +2 restores bright tonal punch; weak FX Blue keeps blue separation subtler than the strong-blue recipes.",
@@ -181,7 +265,21 @@
       "data/recipes.json",
       "https://fujifilm-dsc.com/en/manual/x-s20/menu_shooting/image_quality_setting/"
     ],
-    "evidence": "settings-inference"
+    "evidence": "settings-inference",
+    "preferredLighting": [
+      "daylight",
+      "overcast"
+    ],
+    "referenceObservation": "Alpine reference pairs blue sky and cool mountain faces with a yellow meadow; not evidence of a sea-specific restriction.",
+    "relatedRecipes": [
+      {
+        "id": "calm-sea-scotland",
+        "difference": "Settings are close, but exposure and ISO guidance differ; preserve separate identities."
+      }
+    ],
+    "reviewedAt": "2026-10-20",
+    "previewIntent": "Use the saved film simulation, WB and tone settings for an approximate sRGB preview. Shade WB is a warm compensation preset, not proof of a cold result. Highlight +2 can harden clouds despite the name. This earlier entry has ISO up to 6400 and unspecified compensation; preserve its own identity.",
+    "evidenceLimits": "Reference appearance is observed; suitability and causal rendering remain interpretations. No paired untreated images or calibrated camera response."
   },
   "neutral-one": {
     "intent": "A restrained Eterna foundation for a cinematic everyday or landscape alternative. Auto WB with R +4 / B -4 and Color +4 deliberately warms and strengthens Eterna’s subdued baseline; Shadow +2 supplies depth while Clarity -4 softens local detail.",
@@ -208,7 +306,21 @@
       "data/recipes.json",
       "https://fujifilm-dsc.com/en/manual/x-s20/menu_shooting/image_quality_setting/"
     ],
-    "evidence": "settings-inference"
+    "evidence": "settings-inference",
+    "preferredLighting": [
+      "daylight",
+      "overcast"
+    ],
+    "referenceObservation": "Alpine reference has subdued sky and dense hills with a warm foreground; the name does not promise neutral WB.",
+    "relatedRecipes": [
+      {
+        "id": "plain-light-scotland",
+        "difference": "Eterna and strong WB shift offer a moodier interpretation than Plain Light."
+      }
+    ],
+    "reviewedAt": "2026-10-20",
+    "previewIntent": "Use the saved film simulation, WB and tone settings for an approximate sRGB preview. The name does not mean color-neutral: the WB shift is substantial and maximum Color modifies Eterna. DR100 and Shadow +2 are riskier for backlit portraits than softer DR400 options.",
+    "evidenceLimits": "Reference appearance is observed; suitability and causal rendering remain interpretations. No paired untreated images or calibrated camera response."
   },
   "fall-city": {
     "intent": "A grain-free autumn city interpretation inferred from the supplied fall post. Classic Negative, R +4 / B -5 and Color +3 favor brick, warm foliage and street color; DR200 with Highlight -2 keeps lighter surfaces gentler while Shadow +1 adds depth.",
@@ -233,7 +345,21 @@
       "data/recipes.json",
       "https://fujifilm-dsc.com/en/manual/x-s20/menu_shooting/image_quality_setting/"
     ],
-    "evidence": "settings-inference"
+    "evidence": "settings-inference",
+    "preferredLighting": [
+      "daylight",
+      "golden"
+    ],
+    "referenceObservation": "Coffee cup, hand and warm table: cream foam, warm brown surroundings and shadow depth.",
+    "relatedRecipes": [
+      {
+        "id": "warm-table",
+        "difference": "Fall City adds Classic Negative character; Warm Table favors food texture with Astia."
+      }
+    ],
+    "reviewedAt": "2026-10-20",
+    "previewIntent": "Use the saved film simulation, WB and tone settings for an approximate sRGB preview. Fall City is a catalog title, not a verified creator recipe name. NR and Clarity remain unspecified; do not assume missing settings are zero. Warm shifts can distort branded or color-critical subjects.",
+    "evidenceLimits": "Reference appearance is observed; suitability and causal rendering remain interpretations. No paired untreated images or calibrated camera response."
   },
   "autumn-ember": {
     "intent": "A vivid foliage interpretation. Classic Negative with fixed 6300K, R +2 / B -6 and Color +4 favors amber and red leaves; strong Chrome and FX Blue support separation from dense skies. DR400 and Highlight -1 soften brighter areas while Clarity -4 softens texture.",
@@ -259,7 +385,21 @@
       "data/recipes.json",
       "https://fujifilm-dsc.com/en/manual/x-s20/menu_shooting/image_quality_setting/"
     ],
-    "evidence": "settings-inference"
+    "evidence": "settings-inference",
+    "preferredLighting": [
+      "daylight",
+      "golden"
+    ],
+    "referenceObservation": "Orange-red leaves against a cool blurred background; strong separation and a distinct autumn accent.",
+    "relatedRecipes": [
+      {
+        "id": "classic-autumn-scotland",
+        "difference": "Ember favors vivid foliage; Classic Autumn uses lower Color for quieter moor scenes."
+      }
+    ],
+    "reviewedAt": "2026-10-20",
+    "previewIntent": "Use the saved film simulation, WB and tone settings for an approximate sRGB preview. Fixed 6300K can strongly warm tungsten or late-day skin. Creator notes include ND and Black Mist on X-T5; neither filter’s effect is reproduced by the settings. Keep exposure within highlight limits rather than blindly using +1.",
+    "evidenceLimits": "Reference appearance is observed; suitability and causal rendering remain interpretations. No paired untreated images or calibrated camera response."
   },
   "mono-soul": {
     "intent": "A high-contrast monochrome choice for daily life, texture and expressive portraits. The creator’s Fujifilm story values tonal depth and silver-halide character; catalog DR400, Highlight +2 and Shadow +3 create strong tonal separation. Use shape and luminance rather than palette matching.",
@@ -283,7 +423,22 @@
       "https://fujifilm-dsc.com/en/manual/x-s20/menu_shooting/image_quality_setting/",
       "https://www.fujifilm-x.com/en-ph/stories/acros-fs-recipe-x-thomas-phoon/"
     ],
-    "evidence": "creator"
+    "evidence": "creator",
+    "preferredLighting": [
+      "daylight",
+      "artificial",
+      "night"
+    ],
+    "referenceObservation": "Dark working interior: a person, side light and surfaces separated by luminance; color is not the story.",
+    "relatedRecipes": [
+      {
+        "id": "neutral-one",
+        "difference": "Mono Soul discards hue; Neutral One retains subdued cinematic color."
+      }
+    ],
+    "reviewedAt": "2026-10-20",
+    "previewIntent": "Use the saved film simulation, WB and tone settings for an approximate sRGB preview. Color is discarded; avoid this when colorful clothing or festival color carries the story. The published creator story specifies ACROS+G while the saved catalog says Acros; keep the saved source unchanged and do not claim exact green-filter parity.",
+    "evidenceLimits": "Reference appearance is observed; suitability and causal rendering remain interpretations. No paired untreated images or calibrated camera response."
   },
   "warm-table": {
     "intent": "A food-oriented interpretation from the supplied cooking post. Astia with 5800–7000K and R +2 / B -1 favors inviting golden dishes; Highlight -2 moderates glossy highlights, Shadow +1 adds volume, and Sharpness +1 / Clarity +1 preserve food texture without extra Color.",
@@ -308,7 +463,21 @@
       "data/recipes.json",
       "https://fujifilm-dsc.com/en/manual/x-s20/menu_shooting/image_quality_setting/"
     ],
-    "evidence": "settings-inference"
+    "evidence": "settings-inference",
+    "preferredLighting": [
+      "daylight",
+      "artificial"
+    ],
+    "referenceObservation": "Close food preparation sample: tofu, greens, sauce and fingers; ingredient texture remains important.",
+    "relatedRecipes": [
+      {
+        "id": "fall-city",
+        "difference": "Warm Table emphasizes food detail; Fall City provides a more stylized everyday palette."
+      }
+    ],
+    "reviewedAt": "2026-10-20",
+    "previewIntent": "Use the saved film simulation, WB and tone settings for an approximate sRGB preview. Warm Table is a catalog name; the source post has no recipe name. The broad Kelvin range is not one fixed recipe output. Warm balance can make whites yellow; DR100 requires care with glossy plates and bright windows. Missing grain/Chrome settings stay unspecified.",
+    "evidenceLimits": "Reference appearance is observed; suitability and causal rendering remain interpretations. No paired untreated images or calibrated camera response."
   },
   "summer-rain": {
     "intent": "An overcast-portrait interpretation supported by the catalog’s creator note. Classic Negative, Daylight WB with R -2 / B -1 and Color +4 give a less red-biased alternative to warm recipes. DR400 and Highlight -2 soften bright skin while Shadow +0.5 retains mild depth.",
@@ -333,19 +502,36 @@
       "data/recipes.json",
       "https://fujifilm-dsc.com/en/manual/x-s20/menu_shooting/image_quality_setting/"
     ],
-    "evidence": "settings-inference"
+    "evidence": "settings-inference",
+    "preferredLighting": [
+      "overcast",
+      "daylight"
+    ],
+    "referenceObservation": "White blossoms against clear blue sky; bright petals and stronger color. Portrait intent comes from source notes, not this flower alone.",
+    "relatedRecipes": [
+      {
+        "id": "reggies-portra",
+        "difference": "Summer Rain gives Classic Negative color; Reggie’s is a softer adaptive-WB portrait alternative."
+      }
+    ],
+    "reviewedAt": "2026-10-20",
+    "previewIntent": "Use the saved film simulation, WB and tone settings for an approximate sRGB preview. Shadow +0.5 adds contrast rather than lifting shadows, despite the short catalog description. Strong color and Chrome effects can still exaggerate clothing or lips; Daylight WB is less flexible under mixed artificial light.",
+    "evidenceLimits": "Reference appearance is observed; suitability and causal rendering remain interpretations. No paired untreated images or calibrated camera response."
   },
   "dote-classic-chrome": {
-    "intent": "A nostalgic daylight interpretation. Classic Chrome, Daylight WB R +2 / B -6 and Color +2 favor warm surroundings; Highlight -1 / Shadow -1 ease the tone curve, DR200 retains some highlight margin, and Sharpness -2 supports a gentler finish.",
+    "intent": "A warm documentary treatment for everyday objects, interiors and daylight city scenes: cream highlights, amber wood and skin against charcoal or brown shadows, with orange accents retaining presence. The seven supplied references support tactile surfaces and window-light geometry. Daylight WB R +2 / B -6, Classic Chrome, Color +2 and softened Highlight / Shadow -1 support this interpretation; they do not establish a calibrated transform.",
     "subjects": [
+      "still-life",
+      "interior",
+      "architecture",
       "street",
       "portrait",
-      "architecture",
       "landscape"
     ],
     "palette": [
       "orange",
       "yellow",
+      "neutral",
       "green",
       "blue"
     ],
@@ -354,12 +540,27 @@
       "soft",
       "cinematic"
     ],
-    "caution": "Catalog samples are small regions of title cards, not a comprehensive clean gallery. Grain size, FX Blue and Clarity are unspecified. Suggested +2/3 to +1 exposure can clip important whites; meter the actual scene.",
+    "caution": "Already-warm light may over-amber skin and whites. Deep source shadows can remain dense despite Shadow -1. Fixed Daylight WB is less adaptable to artificial/mixed light. Grain size, FX Blue and Clarity are unspecified. Orange title text is an overlay, not scene color evidence; do not use it to calibrate the look.",
     "sources": [
       "data/recipes.json",
-      "https://fujifilm-dsc.com/en/manual/x-s20/menu_shooting/image_quality_setting/"
+      "https://fujifilm-dsc.com/en/manual/x-s20/menu_shooting/image_quality_setting/",
+      "User-approved screenshots 01-1000466090.jpg through 07-1000466096.jpg; crop provenance in data/image-audit.json"
     ],
-    "evidence": "settings-inference"
+    "evidence": "user-approved-references",
+    "preferredLighting": [
+      "daylight",
+      "golden"
+    ],
+    "referenceObservation": "Seven user-approved screenshots: cream wall, warm wood, charcoal felt, pale gray gear, skin, orange drive and a city view. Strong window-light geometry and dense warm shadows recur.",
+    "relatedRecipes": [
+      {
+        "id": "reggies-portra",
+        "difference": "Dote favors fixed daylight amber atmosphere and tactile objects; Reggie’s adapts better to changing light."
+      }
+    ],
+    "reviewedAt": "2026-10-20",
+    "previewIntent": "Use the saved film simulation, WB and tone settings for an approximate sRGB preview. Catalog samples are small regions of title cards, not a comprehensive clean gallery. Grain size, FX Blue and Clarity are unspecified. Suggested +2/3 to +1 exposure can clip important whites; meter the actual scene.",
+    "evidenceLimits": "Reference appearance is observed; suitability and causal rendering remain interpretations. No paired untreated images or calibrated camera response."
   },
   "calm-sea-scotland": {
     "intent": "The separate Scotland post’s soft Astia landscape interpretation, paired with cold sky and amber moor in the catalog. Shade WB / B +1, DR400, Highlight +2, Color +2 and Clarity -4 keep the underlying settings close to Calm Sea, but this entry specifically records exposure -1/3 to 0.",
@@ -383,7 +584,22 @@
       "data/recipes.json",
       "https://fujifilm-dsc.com/en/manual/x-s20/menu_shooting/image_quality_setting/"
     ],
-    "evidence": "settings-inference"
+    "evidence": "settings-inference",
+    "preferredLighting": [
+      "overcast",
+      "fog",
+      "daylight"
+    ],
+    "referenceObservation": "Misty mountain valley: gray sky, dark cool slopes, amber moor and small pale house; keep atmospheric separation.",
+    "relatedRecipes": [
+      {
+        "id": "classic-autumn-scotland",
+        "difference": "Astia offers a different sky/land relationship from the warmer Classic Negative interpretation."
+      }
+    ],
+    "reviewedAt": "2026-10-20",
+    "previewIntent": "Use the saved film simulation, WB and tone settings for an approximate sRGB preview. Do not merge it with Calm Sea: exposure guidance and ISO text differ. Shade WB need not render cool, and Highlight +2 makes pale mist and clouds sensitive to exposure despite DR400.",
+    "evidenceLimits": "Reference appearance is observed; suitability and causal rendering remain interpretations. No paired untreated images or calibrated camera response."
   },
   "classic-autumn-scotland": {
     "intent": "A lower-saturation autumn moor alternative to the Rust recipes. Classic Negative with Color 0 preserves a calmer palette while R +6 / B -6 warms rust tones; DR400, Highlight -1.5 and Shadow +0.5 balance bright haze against gentle shadow depth. Strong Large grain and Clarity -3 add visible texture with softer definition.",
@@ -408,7 +624,21 @@
       "data/recipes.json",
       "https://fujifilm-dsc.com/en/manual/x-s20/menu_shooting/image_quality_setting/"
     ],
-    "evidence": "settings-inference"
+    "evidence": "settings-inference",
+    "preferredLighting": [
+      "overcast",
+      "fog"
+    ],
+    "referenceObservation": "Same valley: muted rust moor, pinkish pale mist, dark slopes and a small white house.",
+    "relatedRecipes": [
+      {
+        "id": "soft-rust-scotland",
+        "difference": "Color 0 and milder shadows give a quieter alternative to the richer Soft Rust variant."
+      }
+    ],
+    "reviewedAt": "2026-10-20",
+    "previewIntent": "Use the saved film simulation, WB and tone settings for an approximate sRGB preview. Large grain is conspicuous in pale haze; Auto WB’s strong shift may make skies pink. This is not Soft Rust: lower Color and milder shadows substantially change intent. The +1/3 compensation is a starting point, not a highlight guarantee.",
+    "evidenceLimits": "Reference appearance is observed; suitability and causal rendering remain interpretations. No paired untreated images or calibrated camera response."
   },
   "soft-rust-scotland": {
     "intent": "The Scotland-specific dense warm-moor interpretation: Classic Negative with R +6 / B -6, Color +4 and Shadow +2 makes amber land stand against dark hills, while Clarity -4 softens detail. DR400 provides more highlight margin than earlier Soft Rust; NR 0 and -2/3 to 0 compensation are also distinct.",
@@ -433,7 +663,21 @@
       "data/recipes.json",
       "https://fujifilm-dsc.com/en/manual/x-s20/menu_shooting/image_quality_setting/"
     ],
-    "evidence": "settings-inference"
+    "evidence": "settings-inference",
+    "preferredLighting": [
+      "overcast",
+      "daylight"
+    ],
+    "referenceObservation": "Same valley: dense hills and richer amber foreground under pale mist; dark areas need protection.",
+    "relatedRecipes": [
+      {
+        "id": "classic-autumn-scotland",
+        "difference": "Stronger Color and Shadow make this denser; Classic Autumn protects a calmer palette."
+      }
+    ],
+    "reviewedAt": "2026-10-20",
+    "previewIntent": "Use the saved film simulation, WB and tone settings for an approximate sRGB preview. Keep the Scotland variant distinct: earlier Soft Rust uses DR100 and NR -4. DR400 does not prevent deep shadows from blocking with Shadow +2 and negative exposure; check detail in trees and hills.",
+    "evidenceLimits": "Reference appearance is observed; suitability and causal rendering remain interpretations. No paired untreated images or calibrated camera response."
   },
   "cool-air-scotland": {
     "intent": "A dramatic mist-and-hills interpretation using Nostalgic Negative’s amber highlight foundation with R -1 / B -3, Color +4 and strong Chrome. Highlight +1.5 and Shadow +3 create pronounced tonal separation; Clarity -3 softens texture without undoing that contrast.",
@@ -458,7 +702,21 @@
       "data/recipes.json",
       "https://fujifilm-dsc.com/en/manual/x-s20/menu_shooting/image_quality_setting/"
     ],
-    "evidence": "settings-inference"
+    "evidence": "settings-inference",
+    "preferredLighting": [
+      "overcast",
+      "fog"
+    ],
+    "referenceObservation": "Same valley: blue/cyan upper slopes and mist contrast with brown foreground; very deep hill shadows.",
+    "relatedRecipes": [
+      {
+        "id": "plain-light-scotland",
+        "difference": "Cool Air adds stronger tonal drama; Plain Light keeps a more restrained everyday balance."
+      }
+    ],
+    "reviewedAt": "2026-10-20",
+    "previewIntent": "Use the saved film simulation, WB and tone settings for an approximate sRGB preview. The Cool Air name is not a globally cool WB: B -3 reduces blue and Nostalgic Negative has amber highlights. Shadow +3 can lose dark hill detail; high highlight contrast may make bright snow harsh despite DR400.",
+    "evidenceLimits": "Reference appearance is observed; suitability and causal rendering remain interpretations. No paired untreated images or calibrated camera response."
   },
   "plain-light-scotland": {
     "intent": "The closest restrained everyday alternative in the Scotland set. Pro Neg. Hi, Auto WB with a small R +1 / B -1 shift, Color +1 and grain Off support believable skin and landscape color; DR200 / Highlight -0.5 modestly protect light detail while Shadow +1 adds form.",
@@ -484,6 +742,21 @@
       "data/recipes.json",
       "https://fujifilm-dsc.com/en/manual/x-s20/menu_shooting/image_quality_setting/"
     ],
-    "evidence": "settings-inference"
+    "evidence": "settings-inference",
+    "preferredLighting": [
+      "overcast",
+      "daylight",
+      "mixed"
+    ],
+    "referenceObservation": "Same valley: gray mist, brown moor and restrained color with readable pale house; less amber than the warm variants.",
+    "relatedRecipes": [
+      {
+        "id": "cool-air-scotland",
+        "difference": "Plain Light favors restraint and believable skin; Cool Air pushes dramatic contrast."
+      }
+    ],
+    "reviewedAt": "2026-10-20",
+    "previewIntent": "Use the saved film simulation, WB and tone settings for an approximate sRGB preview. This is an inference from settings and the catalog’s grey-mist sample pairing, not a promise of calibrated color. Pro Neg. Hi and Shadow +1 still add contrast; it is not identical to Pro Neg. Std or a flat grading profile.",
+    "evidenceLimits": "Reference appearance is observed; suitability and causal rendering remain interpretations. No paired untreated images or calibrated camera response."
   }
 }

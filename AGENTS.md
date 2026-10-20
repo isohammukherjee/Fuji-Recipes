@@ -55,3 +55,7 @@ This document records the user's approved product direction. Later explicit user
 ## Scene suggestion knowledge protocol
 
 Every new recipe needs a reviewed entry in `data/recipe-profiles.json` before recommendation participation. Study all settings and correctly paired references; document intent, subject/palette fit, cautions and provenance. Read `docs/recipe-research.md` and `docs/scene-engine.md`. Distinguish creator evidence from settings-based inference. Do not infer intent from recipe names alone or treat votes as verified photographic outcomes. Retain on-device image privacy, explicit feedback, reset, bounded contextual learning and three database-only recommendations. Do not label a failed semantic-model run as successful AI analysis.
+
+## Recipe knowledge updates
+
+Retain creator text when the user permits it. Prefer wide context-preserving square crops to text-free tight crops; never recolor reference pixels. For every recipe, extend `data/recipe-profiles.json` with observed appearance, preferred lighting, related alternatives, preview assumptions and explicit evidence limits. Run `python scripts/build-recipe-mind-map.py` to keep the browsable map and saved Markdown aligned. Never infer a calibrated LUT from unpaired recipe screenshots or their overlaid title colors.

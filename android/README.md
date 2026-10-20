@@ -1,6 +1,6 @@
-# Fuji Recipes for Android — 1.2.0
+# Fuji Recipes for Android — 1.3.0
 
-An installable offline Android edition using the exact shared React UI, photo gallery, settings, themes, search, filters, favorites and square photo import flow. It bundles 19 recipes and 45 reference images. Android 8.0 / API 26 or newer is required.
+An installable offline Android edition using the exact shared React UI, photo gallery, settings, themes, search, filters, favorites and square photo import flow. It bundles 19 recipes and 51 reference images. Android 8.0 / API 26 or newer is required.
 
 Favorites and imported photos are saved on the device in IndexedDB, with native file selection, clipboard copying and Android Back handling. All imported photos are square and no larger than 1080 × 1080. It does not request broad storage or camera permissions. The normal Internet permission supports WebView HTTPS loading; the native asset handler restricts remote subresources to AI library/model delivery hosts, and the bundled collection works offline. The reserved HTTPS asset origin allows secure-context browser APIs without a local HTTP server. External web collection links open the user's browser.
 
@@ -11,7 +11,7 @@ The offline Android data and signed-in website data are independent; cloud synch
 Install Java 17 or newer, Android SDK platform 36 and build-tools 36.0.0. If only a Java runtime is available, the helper uses the pinned Eclipse ECJ 3.42.0 compiler. Install the repository's Node dependencies first. Then run from the repository root:
 
 ```sh
-python android/build-apk.py --sdk /path/to/android-sdk --keystore /private/path/Fuji-Recipes-Development.keystore --output /output/Fuji-Recipes-1.2.0.apk
+python android/build-apk.py --sdk /path/to/android-sdk --keystore /private/path/Fuji-Recipes-Development.keystore --output /output/Fuji-Recipes-1.3.0.apk
 ```
 
 The helper builds Vite assets from `app/page.tsx`, compiles native resources and Java bytecode, runs D8, aligns the APK, signs it and verifies its certificate and alignment. If a development signing keystore does not yet exist, it creates one with alias `fuji-recipes`. The default development password is `android`; set `FUJI_SIGNING_PASSWORD` for a different password. Preserve the same keystore for future installable updates. Do not commit signing keys.
@@ -29,3 +29,7 @@ Version 1.1 adds gallery/camera scene analysis and three recipe recommendations.
 ## Version 1.2
 
 Adds temporary recipe previews, before/after comparison, a shared in-memory gallery/camera scene, an object detector, all-recipe comparison, Reanalyze and Regenerate. Original references and photo associations are unchanged. First-use AI model assets are approximately 170 MB plus runtime. Preview rendering is local and independent of AI model availability; it is an sRGB approximation, not a camera-identical Fujifilm LUT. The Android asset handler supports JavaScript module MIME types.
+
+## Version 1.3 reference knowledge
+
+Seven wide, lossless Dote reference crops replace the old tight crop. The bundled recipe mind map covers all 19 recipes and contributes reviewed lighting suitability to ranking. Reference observations are not treated as calibrated LUT data.

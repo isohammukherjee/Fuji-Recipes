@@ -1,4 +1,4 @@
-# Fuji Recipes for Android — 1.1.0
+# Fuji Recipes for Android — 1.2.0
 
 An installable offline Android edition using the exact shared React UI, photo gallery, settings, themes, search, filters, favorites and square photo import flow. It bundles 19 recipes and 45 reference images. Android 8.0 / API 26 or newer is required.
 
@@ -11,7 +11,7 @@ The offline Android data and signed-in website data are independent; cloud synch
 Install Java 17 or newer, Android SDK platform 36 and build-tools 36.0.0. If only a Java runtime is available, the helper uses the pinned Eclipse ECJ 3.42.0 compiler. Install the repository's Node dependencies first. Then run from the repository root:
 
 ```sh
-python android/build-apk.py --sdk /path/to/android-sdk --keystore /private/path/Fuji-Recipes-Development.keystore --output /output/Fuji-Recipes-1.1.0.apk
+python android/build-apk.py --sdk /path/to/android-sdk --keystore /private/path/Fuji-Recipes-Development.keystore --output /output/Fuji-Recipes-1.2.0.apk
 ```
 
 The helper builds Vite assets from `app/page.tsx`, compiles native resources and Java bytecode, runs D8, aligns the APK, signs it and verifies its certificate and alignment. If a development signing keystore does not yet exist, it creates one with alias `fuji-recipes`. The default development password is `android`; set `FUJI_SIGNING_PASSWORD` for a different password. Preserve the same keystore for future installable updates. Do not commit signing keys.
@@ -25,3 +25,7 @@ APK packaging, manifest SDK/package values, included image hashes, signature and
 ## Scene suggestions
 
 Version 1.1 adds gallery/camera scene analysis and three recipe recommendations. Camera capture delegates to an installed camera app using an explicitly granted private temporary output URI; no broad camera/storage permission is required. The temporary camera photo is deleted after decoding. AI downloads roughly 160 MB of model files plus its runtime on first use; Wi-Fi and sufficient RAM are recommended. Model caching is browser-managed and may be evicted. Offline collection browsing does not depend on AI availability. Inference photos stay local. Explicit choices adapt a bounded local ranking history, with a reset option; no automatic model fine-tuning or web synchronization is claimed.
+
+## Version 1.2
+
+Adds temporary recipe previews, before/after comparison, a shared in-memory gallery/camera scene, an object detector, all-recipe comparison, Reanalyze and Regenerate. Original references and photo associations are unchanged. First-use AI model assets are approximately 170 MB plus runtime. Preview rendering is local and independent of AI model availability; it is an sRGB approximation, not a camera-identical Fujifilm LUT. The Android asset handler supports JavaScript module MIME types.

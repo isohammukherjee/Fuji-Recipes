@@ -1,0 +1,2 @@
+import {renderRecipe} from './recipe-renderer.js';
+self.onmessage=({data})=>{try{const pixels=renderRecipe(new Uint8ClampedArray(data.pixels),data.width,data.height,data.settings,{sourceKelvin:data.sourceKelvin,intensity:data.intensity});self.postMessage({id:data.id,width:data.width,height:data.height,pixels:pixels.buffer},[pixels.buffer]);}catch{self.postMessage({id:data.id,error:'Preview could not be rendered. Try a smaller photo.'});}};

@@ -60,3 +60,6 @@ android/app/src/main/assets/
 android/build/
 *.keystore
 *.apk
+
+# Versioned Android packages served as explicit user download deliverables.
+!public/downloads/*.apk

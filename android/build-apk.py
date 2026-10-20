@@ -11,6 +11,9 @@ def run(cmd,**kw):subprocess.run([str(x) for x in cmd],cwd=root,check=True,**kw)
 run(['node','node_modules/vite/bin/vite.js','build','--config','android/vite.config.ts'])
 if work.exists():shutil.rmtree(work)
 (work/'classes').mkdir(parents=True);(work/'dex').mkdir();assets=root/'android/app/src/main/assets';res=root/'android/app/src/main/res'
+# Website download deliverables must never be nested into a later native APK.
+shutil.rmtree(assets/'downloads',ignore_errors=True)
+(assets/'_headers').unlink(missing_ok=True)
 run([tools/'aapt2','compile','--dir',res,'-o',work/'resources.zip'])
 run([tools/'aapt2','link','-o',work/'unsigned.apk','-I',jar,'--manifest',root/'android/app/src/main/AndroidManifest.xml','-A',assets,'--min-sdk-version','26','--target-sdk-version','35',work/'resources.zip'])
 java=list((root/'android/app/src/main/java').rglob('*.java'))

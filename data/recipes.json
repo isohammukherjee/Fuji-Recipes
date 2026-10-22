@@ -1164,7 +1164,7 @@
     "name": "Soft Rust · Scotland",
     "creator": "danieljschwarz",
     "tag": "Landscape",
-    "description": "Warm moor, dark hills.",
+    "description": "Warm rust and amber subjects against subdued blue-grey mist, atmospheric winter streets and autumn landscapes.",
     "settings": {
       "Film simulation": "Classic Negative",
       "Dynamic range": "DR400",
@@ -1198,8 +1198,20 @@
         "sha256": "517c6e41ce134dd62eb6945e63272825e44e6a825daf7651f40e86e580b283d4"
       }
     ],
-    "note": "Scotland / October 9 post. Separate version: settings and sample are paired from the adjacent numbered recipe slides. This differs from the earlier recipe with the same base name.",
-    "source_settings": "06-1000463196.jpg"
+    "note": "October 10 Brittany carousel by danieljschwarz adds portrait, forest camper, coast, sea-stack haze and amber-rock references. Existing Scotland recipe has identical settings and is retained as one distinct variant from older Soft Rust. Settings slide suggests exposure -2/3 to 0, but creator caption prefers +1/3 to +1; choose based on actual highlights. Best seasonal Kolkata Nov-Dec option replacing C2 Fall City temporarily, not C1 Reggie's Portra or C4 personal portraits. New user-supplied square crops remain pending media import; do not mislabel existing images as these new references.",
+    "source_settings": "06-1000463196.jpg",
+    "sourceScreenshots": [
+      "1000468532",
+      "1000468534",
+      "1000468535",
+      "1000468536",
+      "1000468537",
+      "1000468538",
+      "1000468539",
+      "1000468540",
+      "1000468541",
+      "1000468542"
+    ]
   },
   {
     "id": "cool-air-scotland",

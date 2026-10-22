@@ -641,43 +641,64 @@
     "evidenceLimits": "Reference appearance is observed; suitability and causal rendering remain interpretations. No paired untreated images or calibrated camera response."
   },
   "soft-rust-scotland": {
-    "intent": "The Scotland-specific dense warm-moor interpretation: Classic Negative with R +6 / B -6, Color +4 and Shadow +2 makes amber land stand against dark hills, while Clarity -4 softens detail. DR400 provides more highlight margin than earlier Soft Rust; NR 0 and -2/3 to 0 compensation are also distinct.",
+    "intent": "Soft Rust by Daniel J. Schwarz: autumnal travel and winter-haze interpretation. Classic Negative, DR400, strong small grain, Color +4 and R+6/B-6 produce warm rust/ochre subjects against subdued cyan-grey water, haze and shadows. Dark silhouettes and luminous orange details create an atmospheric documentary feel; Clarity -4 softens fine detail.",
     "subjects": [
+      "street",
+      "portrait",
       "landscape",
       "forest",
-      "architecture"
+      "architecture",
+      "coast",
+      "travel"
     ],
     "palette": [
       "orange",
-      "red",
-      "yellow",
-      "green"
+      "rust",
+      "ochre",
+      "muted green",
+      "blue-grey",
+      "pink-grey",
+      "neutral"
     ],
     "moods": [
       "warm",
-      "vivid",
-      "cinematic"
+      "nostalgic",
+      "cinematic",
+      "soft",
+      "earthy"
     ],
-    "caution": "Keep the Scotland variant distinct: earlier Soft Rust uses DR100 and NR -4. DR400 does not prevent deep shadows from blocking with Shadow +2 and negative exposure; check detail in trees and hills.",
+    "caution": "Strong R+6/B-6 and Color +4 may over-warm skin and sunlit stone. Shadow +2 can block detail; Clarity -4 adds processing delay on X-S20. Source slide says exposure -2/3 to 0, but caption says creator often uses +1/3 to +1: conflicting scene-dependent recommendations, not one fixed instruction. Avoid replacing a general-purpose portrait slot.",
     "sources": [
       "data/recipes.json",
-      "https://fujifilm-dsc.com/en/manual/x-s20/menu_shooting/image_quality_setting/"
+      "https://fujifilm-dsc.com/en/manual/x-s20/menu_shooting/image_quality_setting/",
+      "Daniel J. Schwarz Instagram October 10 Brittany autumn carousel (user-supplied screenshots)"
     ],
-    "evidence": "settings-inference",
+    "evidence": "creator-settings-and-user-supplied-carousel",
     "preferredLighting": [
       "overcast",
+      "shade",
+      "golden",
+      "fog",
       "daylight"
     ],
-    "referenceObservation": "Same valley: dense hills and richer amber foreground under pale mist; dark areas need protection.",
+    "referenceObservation": "New October 10 Brittany carousel: orange beanie and subdued face against grey lighthouse; black camper beneath gold foliage; distant sea stacks in pink-grey fog; pale sandy cove seen from dark van interior; backlit figures on rocky coast; intensely amber sunset rocks and black crevices; muted wide lighthouse coast. Distinguish atmospheric subject separation from actual optical bokeh.",
     "relatedRecipes": [
       {
-        "id": "classic-autumn-scotland",
-        "difference": "Stronger Color and Shadow make this denser; Classic Autumn protects a calmer palette."
+        "id": "fall-city",
+        "difference": "Both Classic Negative; Soft Rust favors strong warm shift, grain, muted fog and softer clarity. Seasonal C2 replacement for Nov-Dec Kolkata, not an extra custom slot."
+      },
+      {
+        "id": "reggies-portra",
+        "difference": "Reggie's Portra keeps more forgiving everyday skin and Auto WB; retain C1."
+      },
+      {
+        "id": "soft-rust",
+        "difference": "Older Soft Rust uses DR100 and NR -4; preserve separately."
       }
     ],
-    "reviewedAt": "2026-10-20",
-    "previewIntent": "Use the saved film simulation, WB and tone settings for an approximate sRGB preview. Keep the Scotland variant distinct: earlier Soft Rust uses DR100 and NR -4. DR400 does not prevent deep shadows from blocking with Shadow +2 and negative exposure; check detail in trees and hills.",
-    "evidenceLimits": "Reference appearance is observed; suitability and causal rendering remain interpretations. No paired untreated images or calibrated camera response."
+    "reviewedAt": "2026-10-22",
+    "previewIntent": "Use the exact saved Classic Negative/DR400/Auto WB recipe for approximate emulation; prioritize warm ochre vs muted cyan-grey and pink-grey sky, restrained greens, dense dark forms and small grain. No calibrated before/after transform. Prefer existing verified square sample until newly supplied crops are imported and audited.",
+    "evidenceLimits": "Screenshots show finished photos and original settings, not camera RAW or neutral pairs. New cropped image pack prepared separately but not yet committed to public/samples; no claim of trained neural network."
   },
   "cool-air-scotland": {
     "intent": "A dramatic mist-and-hills interpretation using Nostalgic Negative’s amber highlight foundation with R -1 / B -3, Color +4 and strong Chrome. Highlight +1.5 and Shadow +3 create pronounced tonal separation; Clarity -3 softens texture without undoing that contrast.",

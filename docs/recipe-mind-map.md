@@ -1,6 +1,6 @@
 # Recipe mind map
 
-Reviewed 2026-10-20. All 19 recipes share this structure: intent → subjects → light → palette → observed references → cautions → related choices → preview assumptions. Source settings remain authoritative; observations are not calibrated transforms.
+Reviewed 2026-10-22 (Soft Rust autumn carousel); other recipes retain prior reviews. All 19 recipes share this structure: intent → subjects → light → palette → observed references → cautions → related choices → preview assumptions. Source settings remain authoritative; observations are not calibrated transforms.
 
 ```mermaid
 mindmap
@@ -153,6 +153,18 @@ mindmap
 **Evidence:** settings-inference · Reference appearance is observed; suitability and causal rendering remain interpretations. No paired untreated images or calibrated camera response.
 
 **Related:** Color 0 and milder shadows give a quieter alternative to the richer Soft Rust variant.
+
+## Soft Rust · Scotland — October 10 Brittany autumn carousel update
+
+**Intent:** Earthy, cinematic seasonal color for hazy winter Kolkata streets, overcast portraits and atmospheric travel. Preserve orange/rust subject separation against muted blue-grey and pink-grey background. This is the existing DR400 Soft Rust · Scotland variant, **not** the earlier DR100 Soft Rust.
+
+**Observed photographs:** Orange knit hat with lighthouse; dark camper van against yellow trees; foggy sea stacks; sandy coast framed by vehicle interior; two people against a rocky shore; warm sunset on cliffs; wide coastal lighthouse. These are user-supplied finished-reference screenshots; new square crops are prepared separately and not yet committed to the app.
+
+**Scene decision:** Favor overcast, shade, winter haze, golden side-light, environmental portraits, old streets, textured architecture and travel landscapes. Avoid accurate skin-color work and strongly mixed artificial light. Use a subject-focused exposure check: source settings slide suggests -2/3 to 0 EV while caption suggests +1/3 to +1 EV; retain both with attribution.
+
+**Camera practicality:** Auto WB with R+6/B-6, DR400 (ISO floor applies), strong/small grain and Clarity -4 (potential capture delay). For November–December, seasonal C2 replacement for Fall City; C1 Reggie's Portra and C4 personal portrait slot stay intact.
+
+**Mind-map edges:** Soft Rust · Scotland → [overcast, fog, golden] → [street, portrait, architecture, forest, coast] → [rust, ochre, muted green, cyan-grey, pink-grey] → [nostalgic, warm, atmospheric] → [risk: orange skin, clipped bright rocks, crushed shadows, slow clarity].
 
 ## Soft Rust · Scotland
 
